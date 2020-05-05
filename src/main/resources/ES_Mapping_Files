@@ -1,0 +1,171 @@
+The following command creates a new Elasticsearch pdfmining index used to store actual document bullets (csv data).
+Please note that the ES URL needs to be changed to the actual server address where the index needs to be created.
+
+curl -X PUT "http://az-develastic.active.ai:9200/pdfmining" -H 'Content-Type: application/json' -d'
+{
+  "settings": {
+    "number_of_shards": 1,
+    "analysis": {
+      "filter": {
+        "autocomplete_filter": {
+          "type": "edge_ngram",
+          "min_gram": 2,
+          "max_gram": 10
+        },
+        "stopwords_filter": {
+          "type": "stop",
+          "stopwords": [
+            "is",
+            "the",
+            "a",
+            "an",
+            "it",
+            "of",
+            "in",
+            "for",
+            "what"
+          ]
+        },
+        "my_snow": {
+          "type": "snowball",
+          "language": "English"
+        }
+      },
+      "analyzer": {
+        "autocomplete": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": [
+            "lowercase",
+            "autocomplete_filter"
+          ]
+        },
+        "case_insensitive_whole": {
+          "tokenizer": "standard",
+          "filter": "lowercase"
+        },
+        "stopwords_analyzer": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": [
+            "stopwords_filter"
+          ]
+        },
+        "snowball_analyzer": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": [
+            "my_snow",
+            "stopwords_filter"
+          ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "bullet": {
+      "properties": {
+        "atomic_key": {
+          "type": "keyword"
+        },
+        "section_body_header": {
+          "type": "text"
+        },
+        "atomic_value": {
+          "type": "text",
+          "analyzer": "snowball_analyzer",
+          "copy_to": "atomic_passage"
+        },
+        "order": {
+          "type": "text",
+          "index": false
+        },
+        "row": {
+          "type": "text",
+          "index": false
+        },
+        "column": {
+          "type": "text",
+          "index": false
+        },
+        "page_no": {
+          "type": "text",
+          "index": false
+        },
+        "column_header": {
+          "type": "text",
+          "copy_to": "atomic_passage",
+          "analyzer": "snowball_analyzer"
+        },
+        "section_header": {
+          "type": "text"
+        },
+        "document_name": {
+          "type": "text",
+          "copy_to": "atomic_passage",
+          "boost": 10
+        },
+        "atomic_passage": {
+          "type": "text",
+          "analyzer": "snowball_analyzer",
+          "store": true
+        },
+        "document_object_id": {
+          "type": "text"
+        }
+      }
+    }
+  }
+}'
+
+The following command creates a new Elasticsearch pdfmining4doc index used to store document metadata.
+Please note that the ES URL needs to be changed to the actual server address where the index needs to be created.
+
+curl -X PUT "http://az-develastic.active.ai:9200/pdfmining4doc" -H 'Content-Type: application/json' -d'
+{
+    "settings": {
+      "number_of_shards": 1
+    },
+    "mappings": {
+      "document": {
+        "properties": {
+          "document_file_name": {
+            "type": "keyword"
+          },
+          "document_title": {
+            "type": "text"
+          },
+          "document_object_id": {
+            "type": "keyword"
+          },
+          "document_url": {
+            "type": "text",
+            "index": false
+          },
+          "icon": {
+            "type": "text",
+            "index": false
+          },
+          "thumbnail": {
+            "type": "text",
+            "index": false
+          },
+          "version": {
+            "type": "text",
+            "index": false
+          },
+          "section_header": {
+            "type": "text"
+          },
+          "section_body_header": {
+            "type": "text",
+            "index": false
+          },
+          "total_pages": {
+            "type": "text",
+            "index": false
+          }
+        }
+      }
+    }
+}'

@@ -1,0 +1,55 @@
+Role,Action,Page
+CCE/SCCE,"1.  Receive ad hoc debit from Autopay A/C request from C/H   
+2.  Base  on  the  prevailing  Client  Authentication  Policy  &  Authentication 
+Guidelines, verify customer’s identity. 
+3.  Check if there is DDA / Flexipay set up in CCMS – PCIH p.1 [Appendix 
+1] 
+If no Autopay account set up or   
+ 
+for SCB card set up DDA at other bank account: 
+ 
+  Advise customer the request cannot be entertained   
+ 
+If DDA / Flexipay exists : 
+ 
+  Check CCMS – PCHI p.2 [Appendix 2] if any block code exists 
+  For the card without Block code or block code =“P/C/H” 
+  Confirm the ad-hoc debit amount with customer 
+ 
+  For the card with Block code [Appendix 3]
+4
+  Refer to Block Code Table [Appendix 3] to identify the 
+appropriate responsible party 
+.  Advise C/H to ensure that there is sufficient fund to be debit in the 
+Autopay account. 
+ Access CEMS to fill in SR- Ad Hoc Credit Card Payment for SCB 
+Account [Appendix 6] or SR - Ad Hoc Credit Card Payment for 
+Non SCB Account [Appendix 7] depending on the debiting 
+account being SCB account or other bank account. 
+ Refer to Fund Disbursement Instruction & Cut – off Time Table 
+[Appendix 4] and confirm the processing time with the C/H   
+   If amount is to be debit on statement due day 
+ Refer to G2 Amendment of Autopay -- Change or Hold                         
+            Amount workflow to change the autopay amount. 
+ 
+5.  Check  CCMS  –  PDDM  [Appendix  5]  Total  Amount  Due  field  for  the 
+DDA amount of current month’s statement. 
+ 
+If the ad-hoc debit amount is ≥ DDA amount for current month 
+ 
+Advise  customer  that  autopay  will  not  be  executed  on  due 
+ 
+day* 
+*system will automatically stop autopay if payment is made 3 working 
+days  before  statement  due  date  (payment  amount  must  be  greater 
+than or equal to Total Amount Due). 
+ 
+If the ad-hoc debit amount is < DDA amount for current month 
+ 
+Inform C/H the remaining balance of direct debit instruction for 
+ 
+current month will be debit on due day 
+If block code = “P/C/H”, fill in P-form for Customer Assistance 
+ 
+to hold action. 
+.",2

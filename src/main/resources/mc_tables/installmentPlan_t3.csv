@@ -1,0 +1,53 @@
+Role,Action,Page
+CCE/SCCE,"1.  Receive client
+enquiry of Installment Plan cancellation. 
+2.  Based  on  the  prevailing  Client Authentication Policy  &  Authentication 
+Guidelines, verify client
+ identity. 
+3.  Confirm the type of Installment Plan on requested card account. 
+For Statement Installment (IC2) Plan 
+o  Refer CCMS - PPST / PPSN screens [Appendix 7 & 8] 
+For other Installment Plans 
+o  Refer CCMS - PPDC / PPIC screens [Appendix 9 & 10] 
+.  Check the status of Installment Plan. 
+For acceleration has been done 
+Inform client that the request has been already processed 
+o 
+For acceleration has not been done   
+o  Go to Step 5 
+ 
+5. 
+Inform client to hand in a written instruction for the request. 
+The written instruction must contain:- 
+-  The designate credit card number 
+-  Illuminate the agreement for paying all remaining installments principal 
+amount and interests 
+-  Illuminate  the  agreement  for  paying  early  repayment  fee  HKD150  for 
+Statement 
+Installment  Plan 
+/  1%  of  original  approved  amount  or
+HKD300 (whichever is higher) for Dial-A-Cheque plan. Not applicable if 
+waiver request confirmed 
+- 
+ 
+6. 
+Inform  client  that  all  remaining  installment  transaction(s)  outstanding 
+amount, handling fees and administration fee for early repayment  will 
+be charged directly to the credit card account respectively and will be 
+posted  on 
+the  next  statement.  Also,  administration 
+fee 
+for  early 
+repayment of HKD150 for each Statement Installment Transaction will 
+be charged directly to the card account..(For the service charges waiver 
+request,  please  refer 
+to 
+Financial  Adjustment 
+(Fees  &  Charges)  
+workflow.) 
+7.  Fill in pform 
+-
+with 
+client
+attachment  and  forward  to  CA  for  further 
+processing.",4

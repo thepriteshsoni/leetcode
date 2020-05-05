@@ -1,0 +1,27 @@
+key,value
+1.0 Purpose,This document defines the handling procedure for Combo Card Re - issu e Handing (For SCB card only ) handled by CCC - HK Teleservices Team.
+2.0 Scope,"This procedure applies to Combo Card Re - issue Handling (For SCB card) and is applicable to all SCB credit card clients ( except Standard Chartered American Express Credit Card, Standard Chartered Corporate VISA Credit Card, Standard Chartered Corporate Executive Credit Card, and Standard Chartered UnionPay Dual Currency Platinum Credit Card and Manhattan Credit Card ) . Combo Card means a Credit Card which is linked to one or more bank accounts (CASA )."
+3.0 Definition,"CCE / SCCE: Client Care Executive / Senior Client Care Executive 
+SR: Service Request
+COS: Customer Origination Solution system"
+5.0 Retention Period,"Voice recording
+
+ Permanent
+
+Related documents 
+
+7 years"
+6.0 Cut off time,The cut off time of Combo Card Re - issue Handing is from Monday to Friday 16 :00.
+7.0 Service Standard,"For client instruction received before the cut off time, the request will be processed within the next working day.
+
+ For client instruction received after the cut off time, the request will be processed within 2 working days."
+8.0 Reference,"G lobal Process Standards : Voice and Virtual V4 . 1 (or any future update version)
+
+Retail Banking Client Authentication Global Process Standards V4.0 (or any future update version)
+
+Authentication Guidelines for Client Care Centre, HK Version 1.1 (or any future update vers ion)"
+9.0 Appendi,"Appendix 1 Bank Account Status in Hogan 11.17 screen 
+Appendix 2 CCMS PCIH P.2 screen 
+Appendix 3 Hogan 15.2 screen 
+Appendix 4 COS Image Viewer 
+Appendix 5 CEMS SR Combine Account Related Request "

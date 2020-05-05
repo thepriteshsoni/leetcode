@@ -1,0 +1,473 @@
+"Role & 
+Frequency",ACTIVITIES,page
+"Frontline     
+(Maker)","1.0 Receive notification that account holder is deceased 
+a.  Receive notification that an account holder is deceased. 
+b. 
+Ensure authentication of proof-of-death from the following: 
+i. 
+Internal parties: Memo must bear authorised signatories. 
+ii. 
+External parties: The judicial authorities, estate administrator, death 
+certificate or instructions from other banks must be genuine.  
+iii.  Notification may also be through other reliable and verifiable sources per 
+Country Addendum and subject to positive confirmation by Frontline staff.",3
+"Frontline     
+(Maker)","2.0 Verify details 
+a. 
+Verify the instruction details contained in the notification: 
+i. 
+Ensure the validity of documents presented i.e. they should be original 
+and details thereon should agree with customer details in our books. 
+ii. 
+Ensure the specified deceased account holder is an SCB customer/ 
+account holder. 
+b. 
+Verify notification:  
+i. 
+For internal parties: 
+Ensure the memo is approved by 2 authorized signatories 
+• 
+Ensure supporting documents are attached to the memo e.g. 
+• 
+newspaper cuttings etc. 
+ii. 
+For external parties: 
+If the notification is from judicial authorities, estate administrator 
+• 
+advocates, refer the documentation to the Bank’s approved 
+external lawyers for verification. Branch will bear the cost of this 
+verification.   
+iii.  For other reliable sources, obtain a detailed note that states “person x 
+attended the funeral” or “well known figure,” news item, etc. These 
+details should be captured as notes when inserting the risk on the 
+account.",4
+"Frontline     
+(Maker)","3.0 Reject deceased account notification 
+a.  Reject the deceased account notification if the document is incomplete, quotes the 
+wrong name or account details of the client, or if notifying party is not an authorised 
+authority. 
+b. 
+If documents required to release the funds have not been provided, do not proceed 
+with release of information or funds: 
+i. 
+Public Trustee 
+ii. 
+Letters of Administration 
+iii. 
+Grant 
+c. 
+Request missing documents before beginning release procedure including: 
+i. 
+Notification document (memo, death certificate) 
+ii. 
+Copy of deceased’s ID copy (if available) 
+iii. 
+Post-mortem report for accidental deaths (required for insurance claims). 
+d.  Return documents to the notifying party and inform them the reasons for rejection.",4
+"Frontline     
+(Maker)","4.0 Assess products held by the deceased
+a.
+Complete product-holding verification checklist:
+b.
+List all accounts and the relationship numbers belonging to the deceased account 
+holder on the notification documents  
+c. 
+Check eBBS and surround systems to assess products held by the deceased. 
+d. 
+If customer has additional products, email certified copy of the Death Certificate to 
+the respective team(s) via Form1/internal memo: 
+i. 
+Loans, Credit Cards: Credit Risk & Collections 
+ii. 
+Custody, Banca or IS: Wealth Management Ops 
+e. 
+Instructions to downstream teams will include the following supporting documents: 
+i. 
+Notification document (memo, notice) 
+ii. 
+Copy of death certificate 
+iii. 
+Copy of deceased’s ID copy (if available) 
+iv. 
+Post-mortem report for accidental deaths (required for insurance claims).b. 
+List all accounts and the relationship numbers belonging to the deceased account 
+holder on the notification documents  
+c. 
+Check eBBS and surround systems to assess products held by the deceased. 
+d. 
+If customer has additional products, email certified copy of the Death Certificate to 
+the respective team(s) via Form1/internal memo: 
+i. 
+Loans, Credit Cards: Credit Risk & Collections 
+ii. 
+Custody, Banca or IS: Wealth Management Ops 
+e. 
+Instructions to downstream teams will include the following supporting documents: 
+i. 
+Notification document (memo, notice) 
+ii. 
+Copy of death certificate 
+iii. 
+Copy of deceased’s ID copy (if available) 
+iv. 
+Post-mortem report for accidental deaths (required for insurance claims).",4
+"Frontline 
+Maker/Checker","5.0 Delete cards tagged to Deceased 
+a. 
+If debit card is present, delete debit card(s) in Sparrow. 
+b. 
+If credit card is present, block credit cards in C400.",5
+"Frontline     
+(Maker)","6.0 Submit instructions to GBS for eBBS updates 
+a. 
+Prepare a memo to GBS to update/amend the following details on the account: 
+i. 
+Request deletion of all standing orders 
+ii. 
+Request placement of risk code 004 on all accounts for no debits. 
+iii. 
+Instruct GBS to insert ledger fee waiver code permanently (no review 
+date). Note: with risk code 004, system-generated charges will still 
+accrue (i.e. ledger fees and commissions on unpaid standing orders) but 
+these should be waived from the time the notification is received by the 
+Bank. Ensure to include waiver instruction to GBS for these Refer to 
+Appendix 1 on how to retrieve the ledger fee waiver code. (Note: this 
+does not apply to joint accounts). 
+iv.  Request placement of DEC risk (Deceased account holder) on the 
+account. 
+v. 
+For joint accounts with a deceased holder, letters of administration are 
+not required.  Death certificate is sufficient.  Account will be managed by 
+the surviving account holder. Instruct GBS to disable the signature of the 
+deceased and to insert a note indicating the deceased person in 
+eSigCap.  
+b.
+Obtain approval by 2 authorized signatories on each memo. 
+c. 
+If customer has an existing loan, forward certified copy of the Death Certificate to 
+Collections via Form1/internal memo. 
+d. 
+Scan static data instruction c(i) & c(ii) to GBS Account Maintenance via Static Data 
+Amendment workflow to update account status.",5
+"Frontline 
+Checker","7.0 Review and approve scanned instructions 
+a. 
+Verify completeness of instruction forms by comparing supporting documents 
+provided with the details on the screen 
+b. 
+Ensure instructions are authorised by requisite branch staff. 
+c. 
+If ok, approve scanned documents to the Hub.  If not ok, reject to maker for 
+correction.",6
+"Collections & 
+Recoveries 
+ 
+Management 
+Information 
+&Forecasting 
+(MI&F)","8.0 Process loan, credit card claims 
+a.
+Collections team will receive notification of death from branch. 
+b. 
+Forward the notification to: 
+i. 
+GBS Lending Ops via Sharepoint; 
+ii. 
+Country Lending Ops via hard copy instruction with all supporting documents. 
+iii. 
+MI&F via email. 
+c.
+MI&F will initiate charge-off of client’s loans per Charg-off process. 
+d.  Collections wil initiate payment/refund process with the respective insurance 
+company. 
+e. 
+Both MI&F and Collections will send acknowledgement to branch.",6
+"Country/GBS 
+Lending Ops 
+Maker/Checker","9.0 Process update in MARCIS 
+a. 
+PIL will be updated by GBS.  
+b.  Mortgage and Auto loan will be updated by Country Ops. 
+c. 
+Receive notification of demise and copy of death certificate from Collections team. 
+d.  DB1 user will update agreement status in MARCIS: 
+i. 
+Navigate to Customer Service module. 
+ii. 
+On Agreement Status Change screen, update Agreement Status field to 
+“Deceased.”",6
+"GBS Static Data 
+Team Maker","10.0 
+Process updates on eBBS 
+a. 
+Joint Accounts:  
+i. 
+In a joint account, the surviving account holder(s) will continue to operate 
+the account. 
+ii. 
+If the deceased is the primary account holder, convert the survivor to 
+primary account holder. 
+b.  Standing Instructions 
+i. 
+Delete all standing orders on the account. Note: this does not apply to 
+joint accounts. 
+c.  Waivers  
+i. 
+Insert waiver code(s) on the account subsidiary per instruction. Waiver is 
+permanent. Note: waiver is not applicable to joint accounts 
+d.  Risk Codesi. 
+Insert risk code 004 for no debits (customer deceased) in eBBs on all the 
+accounts listed on the scanned notification documents. Note: not 
+applicable to joint accounts. 
+ii. 
+Insert DEC code on the relationship. 
+e. 
+Term Deposit: 
+i. 
+If there is an instruction to break the deal, process the termination per 
+existing process for the deal type.   
+ii. 
+Penalties will apply per existing Term Deposit process. 
+f. 
+Once all changes have been made, forward instruction to the checker on eOps. If 
+unable to complete due to incomplete instruction, reject to Frontline.",6
+"GBS Static Data 
+Team Checker","11.0 
+a.  Approve instructions on eBBS 
+. 
+Verify standing order deletion received from static data maker and if okay approve in 
+eBBS. 
+b.  Confirm insertion of ledger fee waiver at subsidiary.   
+c. 
+Confirm insertion of DEC risk on the account. 
+d. 
+Ensure appropriate/sufficient account notes are captured in eBBS as provided on the 
+notification documents. 
+e. 
+If changes are in order, approve in eBBS, then complete item in eOps and forward to 
+eSigcap maker. 
+f. 
+If not okay reject back to static data maker. 
+Note: Static data checker will only forward the memo after approving s/o deletion, then 
+charge waiver, and finally risk insertion in that order.",7
+"GBS eSigcap 
+Maker","12.0 
+Disable signature in eSigcap 
+ 
+a. 
+For individual mandate, update signature verification system: disable signature 
+and update Annotation page with “deceased.” 
+b. 
+For joint accounts with a deceased holder, disable the signature of the deceased 
+person and insert a note indicating the name of the deceased in eSigCap 
+Annotation page (for example: Joint account for A & B, where B is deceased, 
+Insert “B deceased”) 
+c. 
+If ok, forward to eSigcap Checker.  If not ok, reject to Frontline.",7
+"GBS eSigcap 
+Checker","13.0 
+a.  Check and approve deceased status on eSIGCAP 
+
+Prior to approval of change to deceased status, ensure correctness of data entered 
+based on the deceased account notification docs 
+b. 
+Authorise change of status in eSigcap. 
+c. 
+If ok, complete item in eOps.  If not ok, reject item to eSigcap Maker for correction.",7
+"Frontline 
+(Maker)","14.0 
+Receive request from legal heir for release of funds of 
+deceased account holder 
+a.  Receive required documents to facilitate release of funds of deceased account 
+holder.  
+b.  Where the Court specifically makes an order for the Bank to release funds based on 
+a temporary (unconfirmed) Grant or Court Order, release the specific amount 
+indicated in the Grant/Court Order. 
+c. 
+Review products held and ascertain from heir whether on-going products will 
+continue to be held or discontinued: 
+i. 
+Fixed Deposit: process per existing Term Deposit process.  Any penalties 
+owing to deal break will be per existing process. 
+ii. 
+Wealth Management products: process per existing Investment Services or 
+Banca process.  Any penalties or losses owing to early redemption will be per 
+existing process. 
+d. 
+For amounts not exceeding Kes. 3M, the Public Trustee may administer the estate. 
+The County Commissioner (acting as the agent of Public Trustee) may administer the 
+Estate only up to Kshs. 100,000/=. They can also ask for the funds to be released to 
+them for distribution. The indemnity from the Public Trustee/County Commissioner 
+should be confirmed through call back or in writing if no telephone contact is 
+provided. 
+e. 
+All requests to release sums above Kes. 3M must be issued by the High Court either 
+as Confirmation of Grant of Letters of Administration or Confirmation of Grant of 
+Probate of written will, whih are issued within 6 months from the date of issuance of 
+the initial Grant.  The orders must also be certified by the Registrar of the particular 
+Court. Branch should thereafter open an Estate account with the administrator(s) as 
+signatories. 
+f. 
+Where the amount is above Kes. 3M for the Public Trustee and Kes. 100K for the 
+County/Deputy County Commissioner, prepare a response to the Public Trustee or 
+County/Deputy County Commissioner advising them to provide a confirmed grant for 
+further action. 
+g.  Where the administrators do not wish to open an Estate account, the funds and 
+closure/non-closure of the account may be handed per written instructions. 
+h. 
+For Joint Accounts, the surviving partner continues with the account irrespective of 
+the account mandate; there is no need to close the account. Letters of Administration 
+are not required.  A certified copy of the death certificate of the deceased person is 
+sufficient. 
+i. 
+BB Partnerships- 
+i. 
+An ordinary partnership dissolves with the death of any one partner. 
+However, where a Partnership Deed is available refer to the details on 
+the operation of the account upon death of one partner.  Thereafter 
+request and obtain a partnership resolution from the surviving partners 
+on account mandate and operation thereafter. 
+ii. 
+For Limited Liability Partnerships a change in partnership does not 
+affect existence or obligations of a partnership. In the event of death of 
+any of the partners, a partnership resolution would be sufficient to 
+change the account mandates where the deceased was a signatory to 
+the account(s). A certified copy of the death certificate is necessary. 
+iii. 
+Limited Liability Company:  The death of a shareholder/director does 
+not affect the operation of the company. The remaining directorscontinue to operate the company.  A death certificate and a board 
+resolution are sufficient to replace the deceased shareholder/director if 
+he/she was also an account signatory.  A copy of the updated 
+CR12/notification of change of particulars filed at the Companies 
+Registry must also be obtained to show the updated list of 
+shareholder/directors. 
+a.  Where applicable, refer documents to Legal or to the Court for verification.",8
+"Frontline (Maker) 
+ 
+Within 72 hours","15.0 
+Verify documents 
+ 
+a.  Where applicable, refer to Legal or Court for advice on the nature and 
+completeness of documents presented by heirs. 
+b. 
+For Court Orders, Lettters of Grant of Administration/Probate, send the 
+documents to external counsel for verification. Upon receipt of positive 
+authentication results, proceed to release funds. If not, comply with rejection as 
+below. 
+c. 
+Receive confirmation at the Branch that documentation is in order within 72 
+hours.",9
+Frontline (Maker),"16.0 
+Reject request to release funds 
+a.  Reject request if documents are invalid as per Legal or Court verification results. 
+b.  Return to the deceased customer’s heir. 
+c.  Where the amount is above Kes. 3M for the Public Trustee and Kes. 100K for the 
+County/Deputy County Commissioner, prepare a response to the Public Trustee 
+County/Deputy County Comissioner as appropriate advising them to provide a 
+confirmed Grant for further action.",9
+Frontline (Maker),"17.0 
+Process release of funds 
+ 
+a. 
+Facilitate the release of funds of deceased account holder as per legal letter.  
+b. 
+For amounts in excess of Kes. 1M but less than Kes. 3M payment can be made 
+as directed in the letter: 
+i. 
+If account is outside SCB, perform call back confirmation then close the 
+account.  Make electronic payment (OTT) to beneficiary account per 
+Public Trustee instruction. 
+ii. 
+If the beneficiaries are mandated to, and opt to maintain the account in 
+SCB, open a new account per instructions received or in the name 
+“Estate of the Deceased.”  If beneficiary is NTB, then beneficiary will be 
+onboarded per existing bank process. 
+iii. 
+For amounts in excess of Kes. 1M but less than 3M to be paid to the 
+office of the Public Trustee, the instructions must be verified per channel 
+standards.  Upon authentication, the amount will be wired to the account 
+specified in the request from the Public Trustee.  Alternatively, a banker’s 
+cheque will be issued to the office of the Public Trustee.   
+iv. 
+For requests from the County Commissioner’s office for Kshs. 100K or 
+less, after call back confirmation, close the account and issue a bankers 
+cheque i.f.o County Commissioner a/c <Full name of the deceased> 
+and deliver the cheque to the respective office. The cheque may also beissued in the names as directed in the letter but our forwarding letter 
+should indicate the full name of our customer. 
+c.  Where the amounts are above Kes. 3M upon confirmation of the orders with 
+registrar of the court, obtain instructions on how to disburse the funds from the 
+named administrators/signatories of the estate account.  
+Verify all deposit and loan accounts 
+d. 
+If customer has an outstanding loan account liaise with Collections before 
+releasing the funds in deposit accounts.  
+e. 
+If okay proceed with account closure, if not okay advise customer’s heir 
+accordingly. 
+f. 
+Apply pending and other charges on the accounts (if any).",9
+"Frontline 
+Checker","18.0 
+Authorise release of funds 
+ 
+a.  Check documents submitted. 
+b.  Check account details. 
+c. 
+Authorise release of funds. 
+Note: Cash will not be issued to beneficiaries unless specified in the order. Beneficiaries 
+should be issued funds in banker’s cheque or credited into accounts whether in SCB or 
+another bank.",10
+Teller (Maker),"19.0 
+Release funds to legal heir 
+ 
+a. 
+Release funds to customer per instructions of customer’s legal heir, or per legal 
+letter. 
+b. 
+Customer legal heir to acknowledge receipt of funds.",10
+"Frontline 
+(Maker/Checker)","20.0 
+Submit instructions to fully close the account 
+here applicable, frontine will instruct for closure of the account: 
+a. 
+Prepare an internal memo duly signed by authorized signatories to close the 
+deceased account. 
+b. 
+For Estate Account the administrators(signatories) will sign instructions to close 
+the account. 
+c. 
+Scan the instruction through static data queue in eOps to GBS.",10
+Frontline (Maker),"21.0 
+Batch original documents and send for archival 
+ 
+a. 
+Forward the following documents to ADU for filing. 
+i. 
+Deceased account notification docs 
+ii. 
+Deceased account acknowledgement 
+iii. 
+Legal and Compliance referralsiv. 
+Documents presented by heir 
+b. 
+Forward financial entries to Record Management Unit via CVVU in Kenyatta 
+together with the day’s vouchers.",10
+ADU,"22.0 
+Archive original documents 
+ 
+a. 
+Receive documents and send acknowledgement to branch immediately. 
+b. 
+Archive documents as per the existing DOI 
+c. 
+Record Management Unit (RMU): Receive financial entries together with the 
+day’s vouchers and archive per the existing DOI.",11
+Contact Center,"23.0 
+Complaints handling 
+Complaints and enquiries related to deceased’s account will be captured in CEMS per 
+existing process. 
+Contact Center will also accept card-related requests on a deceased account-holder’s 
+account.  CCC will warm the cards if request is made before instructions are delivered at 
+the branch.",11
+END PROCESS,,

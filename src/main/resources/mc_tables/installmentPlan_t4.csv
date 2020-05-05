@@ -1,0 +1,89 @@
+Role,Action,Page
+CCE/SCCE,"1. Receive client's reinstatement request for installment Plan. 
+2.  Based on the prevailing Client Authentication Policy & Authentication 
+ 
+3.  Confirm the credit card account status. 
+For the account is in normal status 
+o  Go to Step 4 
+For the account is cancelled 
+to  reinstate 
+the  credit  card 
+first 
+(please 
+refer 
+to 
+o  Advice  client 
+-instatement
+ 
+ 
+4.  Check the accelerated transaction(s) amount in CCMS - PCSD/PCTD 
+statement  screens  and  confirm  the  previous  Installment  Plan  details 
+for reinstatement. 
+For Statement Installment (IC2) Plan 
+o  Refer CCMS - PPST / PPSN screens 
+For other Installment Plans 
+o  Refer CCMS - PPDC / PPIC screens 
+5.Obtain client's confirmation of reinstatement request
+For IC1 Installment Plan 
+o  Send email to HK Authorization Team for holding transaction limit 
+by stating: 
+  Credit card account number to be reinstatement 
+  Reinstate amount 
+  Account expiry date 
+o  After receiving success confirmation from HK Authorization Team, 
+-
+Card Ops, HK for further processing 
+o  Send email alert with reinstatement details as supplement: 
+ 
+Installment date 
+  Reinstate amount 
+  Remaining tenor 
+  Monthly amount 
+  Monthly handling fee 
+  Handling fee (%) 
+  Product code 
+  P-form no# 
+For IC2 Installment Plan 
+-
+o  Raise pform 
+for further processing 
+o  Send email alert with reinstatement details as supplement: 
+ 
+Installment date 
+  Reinstate amount 
+  Remaining tenor 
+  Monthly amount 
+  Monthly handling fee 
+  Handling fee (%) 
+  Product code 
+  P-form no# 
+For IC3 Installment Plan 
+-
+o 
+[Appendix 13] to Spec/SSpec for further processing 
+ 
+6.  Confirm with client the new repayment amount for coming due date of 
+latest statement after reinstated transaction(s) (if applicable). 
+For auto-payment to card account 
+o  Raise CEMS SR - Credit Card DDA Related Request to change the 
+due date amount 
+For other payment channels to card account 
+o  Go to Step 6
+7
+. 
+Inform client that the reinstated transaction(s) will be credited directly 
+to the credit card account respectively and will be posted on the next 
+statement.",5
+"Spec/ 
+SSpec","8. 
+-DCS  FOLLLOW  UP  FORM  (
+CCE/SCCE. 
+ 
+9.  Check the input details of pform and raise CEMS SR - Dial-A-Cheque 
+Reinstatement / Reversal [Appendix 14] for reinstatement.",7
+"PCS/TM/ 
+MGR","10. Receive the SR routed from Spec/SSpec. 
+For the data is correct with account in normal status 
+o  Proceed SR to Card Ops, HK for further processing 
+For the data is incorrect / account is invalid 
+o  Return SR to Spec/SSpec informing CCE/SCCE to follow up.",7

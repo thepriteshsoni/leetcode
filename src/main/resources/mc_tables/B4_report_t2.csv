@@ -1,0 +1,504 @@
+Role,Action,Page
+CCE/SCCE,"1.  Receive client’s notification on report lost of credit card. 
+For  the  report  lost  /  request  a  new  card  replacement  as 
+card retained at ATM 
+  Go to Step 2. 
+For  notification  on  card 
+retained  at  ATM  without  card 
+replacement 
+Refer 
+to 
+“Credit  Card  Retained  at  ATM  Handling 
+ 
+workflow. 
+   
+the  report 
+lost  of  card  number  or  HKID  / 
+2.  Confirm  client  for 
+Passport number.
+3
+  5
+  6
+For the caller can provide relevant information 
+Input  card  number  or  HKID  /  Passport  number  in  IWS 
+ 
+Card Member Search [Appendix 1] to view client profile. 
+For the caller cannot provide relevant information 
+Information  should  be  obtained  from  CCMS  –  PCNL 
+ 
+screen  [Appendix  2]  for  searching  record  by  client’s 
+name. 
+.  Based  on 
+the  prevailing  Client  Authentication  Policy  & 
+Authentication Guidelines, verify client’s identity. 
+For the client passed the authentication 
+  Go to step 4. 
+For the client failed to pass the authentication 
+Add SOS memo remark as “Fail authentication on Date 
+ 
+/Time,  details  refer  memo”  with  memo 
+line  as  “Fail 
+authentication 
+for  Static/Dynamic  question 
+for  report 
+lost,  client 
+failed 
+to  answer  xxx” 
+to  specify  which 
+question client failed. 
+Process  card  blocking  immediately  and  then  politely 
+ 
+invite  client  to  approach  branch  for  card  replacement 
+due to security consideration. 
+For the caller is a third party 
+  Mark down name and contact number of the caller and 
+write down the relationship between the caller and the 
+cardholder on the instruction form for record.   
+Then,  call  the  client  (cardholder)  to  validate  the  card 
+ 
+blocking instruction.   
+ 
+4.  Ensure the card status is normal (Not Expired Card). 
+.  Confirm the  card  number  with  the  client.  In  the event  that 
+the  client  cannot 
+recall 
+the  card  number,  CCE/SCCE 
+should enquire about the card type such as Credit Card – 
+Visa / Gold etc. / ATM card (refer to “ATM Card Procedure 
+Manual” for reported loss of ATM card). 
+.  Confirm  with  the  client  if  he/she  requests  for  temporary 
+suspension 
+for  card 
+retained  at  ATM 
+(refer 
+to 
+“Card 
+Retained at ATM  Handling”  workflow)  or  report  lost  (go  to 
+Step 7).
+9
+  F
+7.  Block  card  status 
+to  “L” 
+/  “N”  via 
+IWS  –  Report  Loss 
+workflow [Appendix 3] or CCMS – PCMH screen [Appendix 
+4] if IWS not available. 
+or IWS workflow 
+Select “Workflow complete” option in IWS. 
+ 
+For IWS not available / report lost of CUP card 
+Block card status via CCMS – PCMH. 
+ 
+Further  inform  DS  to  block  card  via  CCMS  –  OASA 
+ 
+[Appendix 5] or inform RAC to block WorldMiles Card.   
+Change Hogan DCIM screen (Option 15.2) [Appendix 6] 
+ 
+Status Code to “L”. 
+Record the DS/RAC staff name and date in the pform. 
+ 
+Save  &  Pending  the  pform  and  pass  to  DS  for  dual 
+ 
+checking. 
+ 
+8.  Check  the  transaction  record  with  the  client  and  refer  to 
+Fraud Control for any suspected fraudulent transaction. 
+Fill 
+in 
+pform  with 
+remark 
+field 
+“Suspected 
+fraud 
+ 
+transaction”  and 
+forward 
+it 
+to  Fraud  Control  after 
+TM/MGR’s endorsement.     
+Advise  client  that  relevant  staff  will  contact  him/her  for 
+ 
+further action. 
+Advice client that the transactions / withdrawals logged 
+ 
+before the date and time of blocking will fall under client 
+liability.     
+.  Remind client the following issues for transfer account. 
+  Purchase / ATM function of old card will be terminated. 
+  Supplementary  card  (if  any)  will  be  cancelled  at  the 
+same time.   
+  There will be a new card number and new PIN for card 
+replacement. 
+  Other bank auto card payment facility will be transferred 
+to the new account.   
+  DDA  services  will  be  terminated  and  inform  client  to 
+contact corresponding merchant(s) by himself / herself 
+to 
+rearrange  such  services  with  another  account 
+if 
+applicable.   
+  PPS  services  will  be  terminated  and  inform  client  to
+R
+  1
+re-arrange such services via PPS terminal with another 
+account if applicable. 
+  Octopus  AAVS  will  be  terminated  and  inform  client  to 
+contact  the  Octopus  hotline  to  rearrange  the  services 
+with another account if applicable. 
+  HKJC  cash  voucher  function  will  be  transferred  to  the 
+new account.   
+  Priority 
+Pass 
+card 
+services 
+for 
+Principal 
+and 
+Supplementary  cardholder(s)  will  be  terminated  upon 
+reported lost. New Priority Pass request is necessary.   
+emarks for the client decided not to have replacement card 
+IC1 
+/ 
+IC2 
+/  DAC  plan  will  be  accelerated; 
+  Existing 
+remaining  outstanding  balance  will  be  posted  to  the 
+next month’s statement.   
+  Unclaimed Bonus Point / Cash Back will be cancelled.   
+  Fill in pform and forward to Banking Ops, HK for further 
+processing.   
+0. Check account past due / high balance record via CCMS – 
+PCIQ screen. 
+For Block Code = “P” / “C” / “H”   
+-  Ask  client 
+to  settle  payment  &  call  back 
+for 
+further 
+action. 
+- 
+Fill  in  pform  with  remark  field  “A/C  Past  due,  wait  for 
+client to settle payment” and forward it to HK Collection 
+after TM/MGR’s endorsement.   
+-  Select “To be advised” option in IWS. 
+-  OLC Letter “821” [Appendix 7] will be auto-generated to 
+client by IWS. 
+For Block Code ≠ “P” / “C” / “H” 
+-  Go to Step 11. 
+       
+11. Check CCMS – PCHI screen for any other block code 
+For the account without any Block Code 
+-  Go to Step 12. 
+For the account with other Block Code 
+-  Refer to the Block Code List [Appendix 8] to identify the 
+appropriate responsible party and action. 
+-  Select “To be advised” option in IWS.
+F
+-  OLC  Letter  “821”  will  be  auto-generated  to  client  by 
+IWS. 
+- 
+Fill 
+in  pform  with 
+remark 
+field 
+“Existing  block  code 
+handle by Fraud Control and forward it to Fraud Control 
+after  TM/MGR’s  endorsement  and  advise  client 
+that 
+Fraud  Control  Officer  will  contact  him/her  within  2 
+working days. 
+ 
+12. Confirm  if  client  requests  for  transfer  of  account  i.e.  new 
+card number. 
+For the client needs to further advise the bank 
+-  Select “To be advised” option in IWS or fill in pform with 
+remark field  “Waiting  client  call  back for further  action” 
+and forward  it  to  TM/MGR  for  endorsement  if  IWS  not 
+available. 
+-  OLC  Letter  “821”  will  be  auto-generated  to  client  by 
+IWS. 
+-  Ask client to call back and confirm the instruction.   
+or the client wishes to terminate account 
+-  Select “No” option in IWS or fill in pform and forward it 
+to TM/MGR for endorsement if IWS not available. 
+-  Check 
+any 
+outstanding 
+balance 
+or 
+remaining 
+installments  of  the  card  and  advise  client  to  make  full 
+payment before the due date. 
+-  OLC Letter “822” [Appendix 9] will be auto-generated to 
+client by IWS. 
+ 
+Remark:  A  consolidated  report  will  be  generated  and  faxed  to 
+Banking Ops, HK to input block code “E” for card cancellation for 
+pform flow. 
+   
+For the client requests for a new transfer account   
+-  Select “Yes” option in IWS or fill in pform for Revolving 
+Cash Card / CUP card / IWS not available. 
+For pform flow 
+ 
+Inform DS to block the existing card and record the 
+DS name / Date in the same pform. 
+  Save & Pending for the pform to pass to DS for dual 
+checking.
+T
+  1
+  1
+he below steps 13 – 15 are applicable for client requests 
+for a new transfer account. 
+3. Check  CCMS  –  PRUE  screen  [Appendix  10]  for  Octopus 
+AAVS (Automatic Add Value Service).   
+For AAVS exists and client lost Octopus   
+  Advise  client  to  contact  Octopus  Hotline  for  report 
+loss of Octopus.   
+ 
+Input BLACKLIST IND/RSN Code at CCMS – PRUE 
+screen. 
+For AAVS exists and Octopus card is still in client’s hand 
+  AAVS function will be transferred to the new card. 
+For SCB card 
+  Fill  in  pform  “Report  Lost  Follow  up  Form  (SCB 
+card only)” & “Transfer AAVS (SCB card only)” for 
+Spec/SSpec to transfer AAVS to new card.   
+For Manhattan card 
+  AAVS  will  be  transferred  to  the  new  card  at  the 
+same 
+time  when  Banking  Ops,  HK  open  new 
+transfer account. 
+ 
+14. Check CCMS – PCIH screen [Appendix 11] if client has set 
+up  the  other  bank  DDA  for  card  payment  and  request  to 
+maintain the function to new transfer account. 
+For no other bank DDA exists 
+  Go to Step 15. 
+For other bank DDA exists 
+Fill 
+in  pform  and 
+forward 
+to  Banking  Ops,  HK 
+for 
+ 
+transferring DDA to new account. 
+If account to be debited is a joint account, ask client for 
+ 
+the  name(s)  of  all  debit  account  holder(s)  and  input  to 
+pform. 
+Inform  client  autopay  service  for  card  payment  will  be 
+ 
+suspended  until  service  has  been  transferred  to  new 
+account. 
+5. Check  Hogan  –  DCIM  screen  (Option  15.2)  if  client  has 
+HKJCCV 
+(Hong  Kong 
+Jockey  Club  Cash  Voucher) 
+purchase facility set up.
+For no HKJCCV setup exists 
+  Go to Step 16. 
+For HKJCCV setup exists 
+  Fill  in  pform  to  Banking  Ops,  HK  for  transferring  the 
+service to new account.   
+ 
+16. Check CCMS - PCIC screen [Appendix 12] for last address 
+maintenance date.   
+For the last address maintenance date ≤ 30 days 
+For block code = L 
+Inform  client  to  collect  card  at  designated  branch 
+ 
+after  4  working  days  or  card  will  be  sent 
+to 
+the 
+registered  address 
+if 
+call  back 
+confirmation 
+is 
+successfully performed.   
+For block code = N 
+Inform  client  to  collect  card  at  designated  branch 
+ 
+after 4 working days. 
+For the last address maintenance date > 30 days 
+For block code = L 
+Inform  client  that  the  new  card  will  be  delivered  by 
+ 
+mail after 3 working days. 
+For block code = N 
+Inform  client  to  collect  card  at  designated  branch 
+ 
+after 4 working days. 
+ 
+instruction 
+involved  Call  Back,  CCE/SCCE  should 
+  For 
+inform client that we will call him/her to confirm the request 
+within 1 working day and ask client to contact us if he/she 
+does  not  receive  our  call  within  2  working  days.  Remind 
+client the request can’t be processed if call back failed. 
+ 
+17. Check  CCMS  -  PCIC  or  CCMS  –  PCIQ  screen  for  any 
+mobile number registered in system.   
+For the client with registered mobile number   
+- 
+Fill 
+in  pform 
+“UTC  SMS  Sending  Request  Form” 
+[Appendix 13] to send a SMS alert [Appendix 14] to the 
+client 
+and 
+forward 
+it 
+to  Spec/SSpec 
+for 
+further 
+processing. 
+For the client without registered mobile number   
+- 
+Inform client to collect card at designated branch after 4
+working days or obtain TM/MGR’s approval to send the 
+card 
+to 
+the  client’s  registered  address  by  registered 
+mail.",3
+DS,"18. Receive  call  from  CCE/SCCE  and  block  the  existing  card 
+via CCMS - OASA screen (with Block Code “L” / ‘N” / “R” &   
+input  reason  code  according  to  different  requirement  of 
+Visa / Master / WorldMiles / CUP card, refer to Appendix 6). 
+ 
+19. Review and forward pform to   
+  Spec/SSpec   
+ 
+Open Transfer Account (for SCB card only) 
+ 
+Transfer AAVS to new card (for SCB card only) 
+  TM/MGR 
+ 
+All other cases",3
+Spec/SSpec,"20. Receive  pform  for  request  “Open  Transfer  Account  (SCB 
+card only)” & “Transfer AAVS (SCB card only)”. 
+  For transfer account opening (SCB card only) 
+ 
+Generate a new account via CCMS – LOGO screen 
+[Appendix 15]. 
+  For AAVS to new card transferring (SCB card only) 
+ 
+Input TRANSFER Code at CCMS – PRUE screen. 
+ 
+21. Print  out  pform  and  pass 
+to  TM/MGR 
+for 
+review  & 
+endorsement. 
+ 
+22. Receive pform “UTC SMS Sending Request Form”. 
+- 
+Check the mobile number in pform that is the same as 
+system record. 
+- 
+Consolidate the mobile numbers in a list and send the 
+list to SMS service provider via email with encryption.",3
+TM/MGR,"23. Upon 
+receipt  of  pform 
+from  CCE/SCCE, 
+review  and 
+endorse pform, then forward it to the respective parties as 
+follow: 
+  Remark field = Suspected fraud transaction   
+- 
+Forward pform to Fraud Control for further action. 
+  Remark  field  =  A/C  Past  due,  wait  for  client  to  settle
+payment 
+- 
+Forward pform to HK Collection for further action. 
+  Remark  field  =  Existing  block  code  handle  by  Fraud 
+Control 
+- 
+Forward pform to Fraud Control for further action. 
+  Remark field = Waiting client call back for further action 
+-  Backward pform to CCE/SCCE for follow-up. 
+  For  the  last  address  maintenance  date  ≤  30  days  & 
+request replacement card 
+- 
+Forward 
+pform 
+to 
+Spec/SSpec 
+for 
+call 
+back 
+confirmation for card delivered by mail to registered 
+address  or  forward  pform  to  Banking  Ops,  HK  for 
+card to be collected at branch. 
+  For  the  last  address  maintenance  date  >  30  days  & 
+request replacement card 
+- 
+Forward  pform 
+to  Banking  Ops,  HK 
+for 
+further 
+action. 
+  For cancel account 
+- 
+Forward  pform 
+to  Banking  Ops,  HK 
+for 
+further 
+action.",3
+"Spec/   
+SSpec   
+(Call Back 
+team)","24. Receive pform from TM/MGR/PCS. 
+ 
+25. Perform call back.   
+Call the client on existing mobile number first and then, 
+ 
+if 
+required,  on  any  one  of  other  existing  contact 
+numbers  in  bank’s  records  within  8  hours  of  receiving 
+client’s request.   
+If  unable  to  locate  client  within  8  hours  of  receiving 
+ 
+client’s request. Call the client on one of his/her existing 
+contact  numbers  2  more  time  within  2  working  days 
+after the initial call. 
+Verify  2+1  questions  with  client  and  confirm  that  the 
+ 
+client  indeed  wants  to  re-issue  PIN.  Client  instruction 
+should be rejected if authentication can’t be fulfilled. 
+For Unsuccessful call back 
+Update the call result on the pform. 
+ 
+Do not proceed the instruction and reject the pform. 
+ 
+Add  memo 
+“Failed 
+to 
+contact 
+client 
+for  Card 
+ 
+reissuance” in CCMS.
+Raise  pform 
+“UTC  SMS  SENDING  REQUEST 
+ 
+FORM”  to  send  SMS  to  client’s  existing  cell  phone 
+number in Bank’s record. 
+For Successful call back 
+Forward 
+the 
+pform 
+to 
+TM/MGR/PCS 
+for 
+ 
+endorsement. 
+ 
+* For irregular case, escalate to TM/MGR immediately.",3
+TM/MGR,"26. Upon 
+receipt  of  pform 
+from  Spec/SSpec, 
+review  and 
+endorse  the  printed  pform,  then  return  to  Spec/SSpec  for 
+filing.",3

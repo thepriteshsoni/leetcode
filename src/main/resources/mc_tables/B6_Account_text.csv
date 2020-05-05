@@ -1,0 +1,29 @@
+key,value
+1.0 Purpose,"This document defines the handling proc edure for account termination (block = OLA E ) reinstate upon dispute on unauthorized transaction request , which is handled by CCC - HK Teleservices Team ."
+2.0 Scope,This procedure a pplies to Account Termination (Block = OLA E ) Reins tate Upon Dispute on Unauthorized Transaction Request and is applicable to all credit card clients .
+3.0 Definition,"CCE/SCCE: Client Care Executive / Senior Client Care Executive
+DS:  Designated Staff TM/MGR: Team Manager / Manager, Client Care Centre Spec/SSpec: Specialist / Senior Specialist - Operations 
+IC1: Merchant Installment Plan
+IC2: Statement Installment Plan
+DAC: Dial  A  Cheque 
+DDA: Direct Debit Authorization
+AAVS: Automatic Add Value Service
+PPS:   Payment by Phone Service HKJCCV Hong Kong Jockey Club Cash Voucher
+CUP: UnionPay Dual Currency Platinum Credit Card"
+5.0 Retention Period,"Voice recording Permanent
+
+R elated documents 7 years"
+6.0 Cut off time,The cut off time of Account Termination (Block = OLA E) Reinstate Upon Disp ute on Unauthorized Transaction Request is Monday to Friday 16:00.
+7.0 Service Standard,"For client instruction received before the cut off time, the request will be processed within 2 working days.
+
+ For client instruction received after the cut off time , the request will be processed within 3 working days."
+8.0 Reference,"Retail Banking Client Authentication Global Process Standards V4.0 (or any future update version)
+
+Global Process Standards: Voice and Virtual V4.1 (or any future update version) 
+
+Authentic ation Guidelines for Client Care Centre, HK Version 1.1"
+9.0 Appendix,"Appendix 1 CCMS - PRUE screens 
+Appendix 2 CCMS - PCIH screen 
+Appendix 3 Hogan - 15.2 screen 
+Appendix 4 CCMS - PCIC screen 
+Appendix 5 CCMS - OASA screen "

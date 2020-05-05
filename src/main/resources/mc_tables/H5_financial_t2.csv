@@ -1,0 +1,64 @@
+ABCD Role,Action,Page
+Maker,"1.  Receive  client’s  request  for  waiver  /  reversal  on  financial 
+charges. 
+2.  Based  on 
+the  prevailing  Client  Authentication  Policy  & 
+Authentication Guidelines, verify client’s identity.   
+3.  Check  financial  charge  reversal  history  in  CEMS  Service 
+Request History [Appendix 1].   
+-  Waive 
+/ 
+reverse 
+the 
+financial  charges  on 
+request 
+according 
+to 
+the 
+prevailing 
+Unsecured 
+Lending 
+Products  –  Product  Fee  Waiver  Guideline  and 
+the 
+Delegation of Authority (DOA).   
+For criteria fulfilled case 
+  Go to Step 4.   
+For criteria not fulfilled case 
+ 
+Reject client’s request.   
+Special Handling 
+For client insists on waiver / reversal on financial charges 
+i.e. providing negative feedback
+Refer  to  the  prevailing  Unsecured  Lending  Products  – 
+ 
+Product  Fee  Waiver  Guideline  and  obtain  proper 
+approval.  Maker  will  return  call  to  the  client  for  appeal 
+result within 5 working days. 
+ 
+4.  Refer to CCMS PCSD or PCTD screen [Appendix 2] for the 
+financial  charge  amount  and  raise  CEMS  SR  –  “Credit 
+Card  Fee  Reversal”  [Appendix  3]  to  waive  /  reverse  the 
+financial charge. 
+For the amount within Maker’s empowerment 
+- 
+Advise client that the request will be processed within 1 
+working day. 
+For the amount exceed Maker’s empowerment   
+- 
+Route the SR to Checker for approval. 
+- 
+Advise client that the request will be processed within 2 
+working days.",3
+Checker,"5.  Obtain  Financial  Adjustment  referral  queue  from  CEMS 
+Pending  Assigned  Request  Queue 
+[Appendix  4]  and 
+review.   
+For approved case 
+-  Press ‘Proceed’ button in CEMS to complete.   
+-  End the flow.   
+For rejected case 
+-  Press ‘Return’ button in CEMS to send back the SR to 
+Maker with decline reason in note field.",4
+Maker,"6.  Obtain the returned SR from CEMS. 
+7.  Make outbound call to client to inform the result and press 
+‘Return’ in CEMS to close the SR.",4

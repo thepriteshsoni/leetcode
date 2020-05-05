@@ -1,0 +1,184 @@
+Role,Action,Page
+CCE/SCCE,"1.  Receive client
+. 
+ 
+2.  Based  on 
+the  prevailing  Client  Authentication  Policy  & 
+Authentication Guidelines, verify client
+ 
+ 
+3.  Check  CCMS 
+  PCHI  screens  [Appendix  1]  or  CEMS 
+ 
+Account  Information:  Key  Information  field  [Appendix  2]  to 
+confirm that there is no 
+ 
+ 
+ 
+ 
+ 
+ collection 
+block  code 
+ with the placed code reason 
+at CCMS memo due to CDD overdue 150 days on the card 
+[Appendix 3]. 
+For  account  with  collection  block  code 
+due to CDD overdue 
+- 
+Reject the request. 
+  If client  insists under CDD overdue, CCE should refer all cases 
+to DDM team for appropriate handling before any action. 
+ 
+For account without collection block code 
+- 
+Go to Step 4.
+5
+ 6
+ 7
+4.  Enquire 
+reason 
+for 
+temporary 
+limit  enhancement, 
+the 
+requested line limit & duration with client. 
+For transactions related to Gambling, Merchant Installment 
+(IC1), Down payment of a property or Cash advance 
+- 
+Reject the request. 
+ 
+For other purpose  
+- 
+Go to Step 5. 
+.  Refer to CEMS Limits field [Appendix 4] or CCMS 
+ PCSS 
+[Appendix 5] / CCMS 
+ PBSQ [Appendix 6] screens for the 
+available credit limit.  
+.  Check  CEMS  Relationship 
+Information 
+[Appendix  7]  or 
+Hogan  11.17  screen 
+[Appendix  8]  and  CEMS  POT  & 
+Annual Fee field [Appendix 9] or CCMS - PCIH P.1 screen 
+[Appendix 10] - User Code 1 for Staff code (ST)  / Student 
+card code (SV or TI) identification. 
+For staff or student card 
+- 
+Reject the request and mark memo for record.  
+For non-staff or non-student card 
+- 
+Go to Step 7. 
+.  Check  CEMS  SR  Credit  Line  Increase   [Appendix  11]  or 
+CCMS 
+  PSCC  screen  [Appendix  12]  for 
+the  maximum 
+approval 
+limit  and  also  versus 
+the  Product  Maximum 
+[Appendix 12]. 
+For max approval limit < Requested line amount  
+- 
+Reject the request and mark memo for record.  
+For max approval limit 
+ Requested line amount 
+- 
+Go to Step 8. 
+ 
+8.  Check  CCMS 
+  PCHI  P.1  screen  -  CR  LIMIT,  CREDIT 
+LIMIT  and  LAST  CR  LIMIT  fields  to  ensure  no  credit  limit 
+changed within 30 days. 
+For credit limit changed within 30 days 
+- 
+Reject the request and mark memo for record.  
+For no credit limit change within 30 days 
+- 
+Go to Step 9. 
+ 
+9.  Check CEMS history for SR  Credit Line Increase . 
+For the request applied > 3 times within 12 months 
+- 
+Reject the request and mark memo for record.  
+For 
+ 3 times of requests within 12 months 
+- 
+Go to Step 10.
+1
+ 1
+10. Review  Credit  Line  Increase  credit  checking  rule  1-12  in 
+CEMS  SR  Credit  Line 
+Increase   or  CCMS 
+  PSCC 
+to 
+check if any deviation code of rule 1-12 is activated and go 
+through  checking 
+rule  13-16 
+in  CEMS  SR  Credit  Line 
+Increase   to  check  if  any  deviation  code  of  rule  13-16  is 
+activated. 
+For one of deviation code is activated 
+- 
+Reject the request and mark memo for record.  
+For no deviation code is activated 
+- 
+Go to Step 11. 
+1. Inform  client  that  the  request  will  be  reviewed  by  related 
+department and will return a call for the result within 1 hour. 
+2. Raise  CEMS  SR  Credit  Line 
+Increase   and  attach 
+the 
+screens  of  Hogan  11.17,  CCMS 
+-  PCIH  P.1,  CCMS 
+ 
+PSCC and CCMS 
+ PCHI P.1, 
+Proceed
+button  
+and inform DS to review.",1
+DS,"13. Check  the  correctness  of 
+the  SR  data  and 
+the  screens 
+attached. Then proceed the SR to TM/MGR for approval.",1
+TM/MGR,"14. Review the SR. 
+For approved case  
+- 
+ 
+- 
+Inform  CCE/SCCE 
+to  call 
+the  client 
+for 
+the  approval 
+result. 
+For declined case 
+- 
+eturn
+ SR to CCE/SCCE. 
+- 
+Inform  CCE/SCCE 
+to  call 
+the  client 
+for 
+the  declined 
+result.",1
+CCE/SCCE,"15. Call the client for approved / declined result. 
+For client accepts the result  
+- 
+Press 
+ to close the SR (for declined case 
+only). 
+- 
+End the flow.  
+For client does not accept the result and insists to appeal 
+- 
+only)  and  raise  new  CEMS  SR  Credit  Line  Increase  
+again and attach supporting documents. 
+- 
+Advise client the turnaround time is 1 working day. 
+- 
+roceed 
+the  SR  to  CI  for 
+review and monitor the result.   
+- 
+Call the client for the final result.",1

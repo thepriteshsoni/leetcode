@@ -1,0 +1,79 @@
+Role,Action,Page
+CCE/SCCE,"1.  Receive  client
+decrease movement. 
+  
+2.  Based  on 
+the  prevailing  Client  Authentication  Policy  & 
+Authentication Guidelines, verify client
+ 
+         
+3.  Ask client about the requested increase/decrease line limit. 
+4.  Refer 
+to  CEMS  Limits 
+field  or  CCMS 
+  PCIQ 
+/  PCSS 
+screens for the available credit limit.  
+For client requests to Decrease credit line 
+- 
+Ensure  the  requested  line  limit  is  above  the  minimum 
+requirement 
+of 
+the 
+product 
+[Appendix 
+13] 
+and 
+outstanding balance. 
+- 
+Raise CEMS SR  Credit Line Movement
+ [Appendix 14]. 
+- 
+roceed 
+the  SR  to  CI  for 
+further processing. 
+- 
+Inform  client  that 
+the  confirmation  of 
+line  adjustment 
+notice will be received in 1 week. 
+For client requests to Increase credit line  
+- 
+Ask  client  to  submit  recent  3  months  income  proof  to 
+CCE/SCCE. 
+- 
+Raise  CEMS  SR 
+Credit  Line  Movement
+  &  attach 
+related income proof documents.  
+- 
+roceed 
+the  SR  to  CI  for 
+review. 
+- 
+Inform  client  that  the  result  of  line  adjustment  will  be 
+confirmed within 4 working days. 
+ 
+5.  Call back client for the result of Permanent Line Increase 
+For the 
+ 
+- 
+Call the client to confirm the result and inform client the 
+confirmation of line adjustment notice will be received in 
+1 week. 
+For the 
+ 
+- 
+Call the client to confirm result. 
+- 
+Update client
+SR. 
+- 
+Proceed  SR 
+to  CI 
+for  endorsement  and  arrange 
+for 
+credit limit increase per acceptance of client. 
+- 
+Inform  client  the  confirmation  of  line  adjustment  notice 
+will be received in 1 week.",3

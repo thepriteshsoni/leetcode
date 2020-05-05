@@ -1,0 +1,83 @@
+Role,Action,Page
+CCE/SCCE,"1.  Receive client
+Statement Installment Plan application.   
+2.  Based  on  the  prevailing  Client Authentication  Policy  &  Authentication 
+ 
+3.  Check client
+ eligibility to enroll the application. 
+-  Available installment amount for eligible transactions should be >= 
+HKD1,500  in  the  latest  statement  (refer  CCMS  -  PCSD  screen
+[Appendix  1])  or  after-statement 
+(refer  CCMS 
+-  PCTD  screen 
+[Appendix 2]) 
+-  Payment Due Date of the latest statement should be >= 7 days 
+-  Not eligible transactions include: 
+  Purchase of casino chips   
+  Cash advance   
+  Previous balance   
+  Transaction made by instalment, fees and charges 
+ 
+4.  Enquire for the requested installment amount and tenor with client. 
+ 
+5.  Refer to CEMS  -  Alert Details  field [Appendix 3] to provide the APR 
+and handling fee for the requested installment amount and tenor. 
+ 
+6. 
+ 
+ 
+7.  Raise CEMS SR - IC2 Reinstatement [Appendix 4] to enroll statement 
+installment plan. 
+ 
+o  Select the enrollment of  Credit Card Account
+mount
+ and 
+enor  
+o  Fill the requested 
+ 
+o 
+latest statement or 
+ the transactions which 
+not post in statement yet 
+ 
+ 
+o 
+o  Confirmation  letter  with  application  details  will  be  sent  to  PCIC 
+address on the next day after following working day. 
+8. 
+Inform  client  that  the  full  version  of 
+T&C   will  be  sent  to 
+him/her within 5 working days. Inform client the installment application 
+cannot  be  cancelled  once  set  up.  Otherwise,  early  repayment 
+fee 
+HKD150  and  remaining  handling  fee  will  be  charged  directly  to  the 
+credit card account respectively. 
+ 
+9. 
+and accept such T&C. 
+Do not process the IC2 enrollment if client does not accept the T&C.   
+ 
+10. Confirm with client the new repayment amount for coming due date of 
+latest statement after enrolled IC2 (if applicable). 
+o  The minimum payment amount is the same as the latest statement 
+and client  has to  pay  the minimum  amount  on or  before  payment 
+due date. 
+the  installment  plan  originated  from  statement  transactions, 
+o  For
+CCE  should  notify  client  the  adjustment  statement  balance  and 
+minimum  payment  amount 
+for 
+the  coming  payment  due  date. 
+Hence,  the  1st 
+statement together with the 2nd 
+. 
+ 
+For the card enrolled auto-payment 
+o  Raise CEMS SR - Credit Card DDA Related Request [Appendix 5] 
+to change the due date amount 
+o  The minimum payment amount is the same as the latest statement 
+and client  has to  pay  the minimum  amount  on or  before  payment 
+due date. 
+ 
+11. Use IWS - 
+6] to send the T&C for client.",1

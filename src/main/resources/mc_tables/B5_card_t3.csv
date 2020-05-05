@@ -1,0 +1,24 @@
+Role,Action,Page
+CCE/SCCE," 1.  Receive  enquiry  from  client  about  mailing  status  of  last 
+replacement / renewal card. 
+ 
+2.  Based  on 
+the  prevailing  Client  Authentication  Policy  & 
+Authentication Guidelines, verify client’s identity.  
+.  Check CCMS – Memo screen [Appendix 6] for the mailing 
+status of last replacement / renewal card. 
+With message of unclaimed card return or GPO return 
+Check CCMS – PCIC screen for client address. 
+ 
+Address is correct 
+o  Refer to “Card Replacement Request” workflow. 
+Address is incorrect 
+o  Refer to “Change of Client Data” workflow to update 
+the  address  and 
+“Card  Replacement  Request” 
+workflow for card replacement. 
+o  Advise client to pick up card at designated branch. 
+Without message of unclaimed card return or GPO return 
+Refer  to  “Report  Card  Lost  Handling  and  Temporary 
+ 
+Suspension Handling” workflow.",5

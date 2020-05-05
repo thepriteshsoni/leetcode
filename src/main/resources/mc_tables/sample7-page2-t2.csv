@@ -1,0 +1,36 @@
+,0,1,2
+0,Roles,Frontline,"o  Receive  standing  order  or  sweep  request  and  verify 
+details 
+o  Perform customer authentication 
+o  Review  completeness  of  the  instructions  and  advise 
+client for rectifications  
+o  Where  applicable, 
+insert 
+revenue  stamp  and  pass 
+charge entries 
+o  Submit verified instructions to Account Services team 
+for  processing 
+through  Filenet/eOps  or  Courier  (as 
+applicable) 
+o  Forward original Request to ADU for archival"
+1,Roles,Account Services,"o  Process instructions received from Branch and Online 
+Banking platform 
+o  Confirm authentication was done as per channel 
+o  Set up standing order in the system 
+o  Validate  any  Foreign  Standing  Orders  advised  by 
+CMO Team for manual authorization"
+2,Roles,"Cash 
+Management 
+Operations (CMO)","o  Generate  list  of  any  Foreign  Standing  orders  due  for 
+execution 
+and 
+obtain 
+confirmation 
+from 
+Account 
+Services  
+o  Authorize  or 
+reject  execution  of 
+the 
+requests  as 
+advised."

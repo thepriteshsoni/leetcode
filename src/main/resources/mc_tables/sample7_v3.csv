@@ -1,0 +1,258 @@
+Step,Step Activity,Day,Responsibility,page
+1,Receive Client Request,,,6
+1.1,"a.  Ensure the order request is received and complete with customer signature as per 
+signing mandate.  
+b.  Perform customer authentication as per minimum control standards.  
+c.  Verify the Debit account details, and confirm if the correct type of instruction has 
+been selected.  
+d. 
+If the instructions are delivered by agent or third party, or if the transaction amount 
+is  above  country 
+threshold,  perform  call-back  and  capture  call  details 
+compliance with Group minimum standards.  
+e.  For  markets  where  adhesive  Revenue  Stamp 
+is  a 
+requirement 
+for  such 
+transactions, affix the same on the Customer Instructions and pass the necessary 
+accounting entries.   
+f. 
+Any documentation required by country-specific Exchange control regulations and 
+Group Policy must be adhered to.  
+g.  Ensure the below are adhered to: 
+(i) 
+For Standing Orders, ensure that all payment periods are regular and the 
+amount is constant. Payment amounts and other details must be legible.   
+(ii)  Customer  request  should  not  be  accepted  where  payment  start  date  & 
+subsequent date are different.  
+(iii) 
+Instructions where execution dates are in the past should be rejected.  
+(iv)  One-off transfers should not be accepted as standing orders. 
+(v)  Change  of  Credit  or  Credit  account  number  constitutes  a  new  Standing 
+Order request.   
+(vi)  Change  of  debit  or  credit  account  number  must  be  requested  for  as  a 
+fresh  standing  instructions  request.  Client  should  be  advised  to  issue  a 
+new standing order request, and a cancellation request if the intention is 
+to transfer the either the debit or the credit account. 
+(vii)  Amendments standing instructions will be limited to the below scenarios:  
+o  Standing Order periodic Payment date 
+o  Standing Order Narration (Reason for payment) 
+o  Standing Order Amount","0 
+in","Frontline/ 
+Branch Maker",6
+2.1,"a.  Reject the instruction if one of the following occurs: 
+i. 
+Incomplete instructions. 
+ii.  Debit account is Dormant or is Unclaimed  
+iii.  Customer authentication fails  
+iv.  Amendment requested is prohibited (e.g change of debit or credit account 
+number) 
+v.  Start date & subsequent payment date are different 
+   b.    Return  Standing  Order  instruction  and  other  submitted  documents  to  originator 
+(Customer/Channels/RM)",0,"Branch  Maker/ 
+Checker",7
+3,Verify details,,,7
+3.1,"i.  Review  scanned  documents  against  hard  copies.  Reject  if  the  request  does  not 
+comply with the minimum requirements for processing, or if indexing is not correct. 
+ii.  If request is in order, submit the request to Processing Center through Filenet/eOps. 
+For  ZW,  the  instructions  will  be  delivered  to  processing  centre  through  courier  until 
+such a time when an electronic channel is implemented. 
+iii. Forward the original documents to ADU for Archival.",0,"Branch 
+Checker",7
+4,Receive and process standing order,,,7
+4.1,"Intructions are received at the processing center through: 
+i.  Filenet/eOps 
+ii.  Online Banking  
+iii. Courier (for ZW, until when an electronic channel is implemented)  
+a)  The processing team should be cautious to identify the transaction type and process 
+it  in  the  correct  manner  since  Filenet  queue  does  not  segreggate  Standing  Order 
+Instruction into there various categories, viz:  
+1. 
+Local Standing Order (Simple) 
+2. 
+Foreign Standing Order 
+3. 
+Sweeps Instructions",0,"GSSC 
+Doc 
+Verification 
+team",7
+5.1,Set-up/Amendments of Simple Standing Order,,,8
+5.1.1,"a.  Receive instructions to setup standing order through Filenet/eOps and/or 
+b. 
+Log 
+into  Online  Banking  back  office  queue  and 
+retrieve 
+standing  order  
+instructions 
+c. 
+Log into eBBS viz: 
+Country > eBBS > Accounts > Instruction >Instructions Master Setup 1 tab  
+d. 
+Follow the set-up guide: Setup/ Modify Simple Standing Order  
+e. 
+If the request also includes Sweeps, refer to 6.0 below.",1,"GSSC 
+Account 
+Services 
+(Maker)",8
+5.1.2,"i. 
+Login  as  a  Checker:  Country  >  eBBS  >  Accounts  >  Instruction  >Instructions 
+Master Setup 1 tab screen 
+ii. 
+Click Authorize button. The Transaction Type field will be enabled. 
+iii. 
+Enter Transaction Type or select from LOV and press Enter key. The Standing 
+Order Number field will be enabled. 
+iv. 
+Enter Standing Order Number or select from LOV and press Enter key. The 
+Instructions Master Setup 1 tab screen information will be displayed with data 
+related to the Standing Order Number.  
+v. 
+Check the data fields to confirm transaction details 
+vi. 
+Click OK to authorize, or Cancel to terminate the transaction 
+c. If the instructions also includes a sweep request, refer to 6.0 below",1,"GSSC 
+Account 
+Services 
+(Checker)",8
+5.2,Cancellation Instructions Local Standing Order (Simple),,,8
+"5
+.2.1","For cancellation of simple transfer from one account to another: 
+i. 
+Login as a Maker: Country > eBBS > Accounts > Instruction >Instructions Master 
+Setup 1 tab screen",1,"GSSC 
+Account 
+Services 
+(Maker)",8
+6.1,Set-up/Amendments of Sweep instructions,,,10
+6.1.1  Sweeps  are,"funds 
+transfer  between  accounts  alternatively 
+to  cover  shortages  and 
+excesses: 
+a.  Receive instructions to setup standing order via Filenet/eOps and/or 
+b. 
+Log 
+into  Online  Banking  back  office  queue  and 
+retrieve 
+standing  order  
+instructions 
+c. 
+Follow the detailed guide on set-up/modifying sweep instructions:  Setup/ Modify 
+Sweep Instructions",1,"GSSC 
+Account 
+Services 
+(Maker)",10
+6.1.2,"i. 
+Login  as  a  Checker:  Country  >  eBBS  >  Accounts  >  Sweeps  >Master  tab 
+screen 
+ii. 
+Click Authorize button. The Sweep Number field will be enabled. 
+iii. 
+Enter  Sweep  number.  Master  tab  screen  will  be  displayed  with  data  related  to 
+the Sweep Number 
+iv. 
+Click Detail tab to review inputs. 
+  v.       Click OK to authorize or Reject to terminate the transaction",1,"GSSC 
+Account 
+Services 
+(Checker)",10
+6.2,Cancellation of Sweep Instructions,,,10
+6.2.1,"i. 
+Login as a Checker: Country > eBBS > Accounts > Sweeps >Master tab screen 
+ii. 
+Click Delete button. The Sweep Number field will be enabled. 
+iii. 
+Enter  Sweep  number.  Master  tab  screen  will  be  displayed  with  data  related  to 
+the Sweep Number 
+iv. 
+Check the data at the following fields: 
+• 
+End Date. 
+• 
+Setup Charge Code 
+• 
+Setup Charge Currency 
+• 
+Setup Charge Account No. 
+• 
+Charge Collected 
+• 
+Setup Charge Amount Check the data fields to confirm transaction details 
+v. 
+Click Detail tab. The Detail tab screen will be displayed with data related to the",1,"GSSC 
+Account 
+Services 
+(Maker)",10
+7,Processing Foreign Standing Order,,,11
+7.1,Set-up or modifications of Foreign Standing Orders,,,11
+7.1.1  Receive instructions to setup standing order via Filenet/eOps/Online Banking.,"(a) For set-up, enter the following in eBBS, follow the detailed guide: Setup of Foreign 
+Standing Order  
+(b) To amendments Foreign Standing Order; 
+i. 
+ Login as Maker: Country > eOPAL > StandingOrder > Process to display SO tab 
+screen with blank fields. 
+ii. 
+Click Edit button. The list of Standing Orders which have not sent for settlement 
+will be displayed for edit. 
+iii. 
+Tick List of All SO. Then click Filter button. The list of all Standing Orders 
+(including those sent for settlement / sent to checker’s queue) will be displayed 
+ready for edit. 
+iv.  With reference to the customer code, select the Standing Order transaction to be 
+Cancelled or skipped. The Details tab will be displayed with details of the 
+customer’s SO selected. 
+v. 
+Modify details as per the request 
+Click OK button to send for authorization, or Cancel to terminate the transaction",1,"GSSC 
+Account 
+Services 
+(Maker)",11
+7.1.2  Prior to approval ensure correctness of entered data against customer request.," Login as a Checker: Click Country  eOPAL  StandingOrder  Process  
+Authorise 
+ On the SO screen, Double click on the selected standing order transaction. 
+ Review the input values against instruction provided 
+Click Charges tab and, then click OK button to authorize or Reject button to cancel 
+the transaction. Authorization or rejection pop-up will be displayed",1,"GSSC 
+Account 
+Services 
+(Checker)",11
+,"7.2.1  Until when the processing of Foreign Standing Orders is fully automated, both the CMO 
+and Account Services teams will be involved in facilitating the payment execution.  
+On execution date of Standing Order, an MT 103/202 will be automatically generated and 
+will fall in the eOpal Standing Order Authorisation queue  
+a.  Generate a report of all SOs to be executed for the day. 
+b.  Forward the report to Account Services team for review and approval",,"Daily   CMO  (Maker/ 
+Checker)",12
+7.2.2,"a.  Receive report of SOs executed for the day. 
+b.  Review the records Obtain approval from authorised authority as per DOA on the 
+report. 
+c.  Send the report to GSSC CMO to facilitate authorisation and release of message.",Daily  GSSC,"Account 
+Services",12
+7.2.3,"a.  Receive report with instructions and approval to authorise/release or reject SO.  
+b.  Verify correct format of the SO that is in the authoriser’s queue.  
+c. 
+If  a  duplicate  execution  alert  is  displayed,  refer  the  SO  to  the  Account  Services 
+team for their confirmation and approval before authorizing.  
+d.  Release and send MT 202/103 message: 
+ Login as a Checker: Click Country  eOPAL  StandingOrder  Process  
+Authorise 
+ On the SO screen, Double click on the selected standing order transaction. 
+ Review the input values against instruction provided 
+ Click on the Calculate button to pick the current exchange rate 
+ Click Charges tab and, then click OK button to authorize or Reject button to 
+cancel the transaction. Authorization or rejection pop-up will be displayed 
+e.  File the Standing Order disposition instruction and related documents.",Daily  CMO,(Checker),12
+7.3,Skipping or Cancellation of Foreign Standing Order,,,12
+7.3.1  Foreign Standing Order can be closed by selecting the Close option. Execution for the,"same can be skipped for one or more times using the Skip option. 
+ 
+i. 
+Login as Maker: Country > eOPAL > StandingOrder > Process to display SO tab 
+screen with blank fields. 
+ii. 
+Click Edit button. The list of Standing Orders which have not sent for settlement 
+will be displayed for edit.",1,"GSSC 
+Account 
+Services 
+(Maker)",12
+8,Document Archival,,,13
+8.1,Receipt and archival of hard and soft copy customer documentation,Daily  ADU,,13
+END OF PROCESS,,,,13

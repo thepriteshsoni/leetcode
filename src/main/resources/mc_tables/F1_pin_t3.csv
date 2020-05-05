@@ -1,0 +1,207 @@
+Role,Action,Page
+CCE/SCCE,"1.  Receive client’s request to re-issue new PIN.   
+2.  Based 
+on 
+the 
+prevailing  Client 
+Authentication 
+Policy 
+& 
+Authentication Guidelines, verify client’s identity.   
+3.  Check  CCMS  –  PCIC  screen 
+[Appendix  1] 
+/  PCHI  screen 
+[Appendix 2] for block code. 
+For the account without any Block Code 
+Go to Step 4. 
+ 
+For the account with Block Code 
+Refer  to  the  Block  Code  List  [Appendix  3]  to  identify  the 
+ 
+appropriate responsible party and action. 
+4.  Check  Hogan  11.17 
+/  11.19  screen 
+to  confirm 
+the 
+client 
+relationship  is  not  in  dormant  status  (i.e.  not  all  CASA  in  the 
+client profile are dormant).   
+For the client relationship is not dormant 
+o 
+Fill in pform and go to Step 5. 
+For the client relationship is dormant 
+o 
+Reject the re-issue PIN request. 
+ 
+5.  Check  CCMS  –  PCIH  screen  [Appendix  4]  for  the  status  of 
+statement flag. 
+For the statement flag = 0    i.e. No Hold Statement Record 
+Go to Step 6 
+ 
+For the statement flag = 2    i.e. Hold Statement Record
+Check CCMS – PCIC [Appendix 1] for address verification. 
+ 
+Address is incorrect 
+o 
+Refer to “Change of Client Data” workflow to update the 
+address. 
+o 
+Advise client to pick up card at designated SCB branch. 
+Address is correct 
+o 
+Raise  CEMS  SR  –  Cycle  Date  Change  [Appendix  5]  to 
+update the statement flag from 2 to 0. 
+o 
+After 1-2 days, check CCMS – PCIH screen [Appendix 4] 
+for amendment status of statement flag. 
+For statement flag change to 0 
+  Go to Step 6. 
+For statement flag remains unchanged 
+  Forward 
+the 
+case 
+to 
+Banking 
+Ops, 
+HK 
+for 
+investigation. 
+ 
+6.  Check CCMS - PCIH PVK IND screen [Appendix 7] for the status 
+of PIN Count. 
+For PIN count  9 
+Refer to “4.1 Re-issue PIN Request (SCB card with Jetco 
+ 
+Chip and Manhattan Card)” workflow.   
+For PIN count = 9 
+Advise  client  about  transfer  account  opening  requirement, 
+ 
+i.e. issue new card with new number. 
+o 
+Click  “save  &  pending”  in  the  pform  and  inform  DS  for 
+account termination. 
+o 
+Check CCMS – PCIC screen [Appendix 1] to confirm the 
+address 
+is 
+correct 
+and 
+the 
+date 
+of 
+last 
+address 
+maintenance.   
+For the last address maintenance date > 30 days 
+ 
+Fill in pform. 
+For the last address maintenance date  30 days 
+ 
+Further  tick  the  check  box  in  pform  to  perform  an 
+outbound call before process the instruction. 
+ 
+Inform 
+the  client 
+that 
+the  card  will  be  sent 
+to 
+registered 
+address 
+if 
+call 
+back 
+confirmation 
+is 
+successfully performed.   
+o  Check CCMS – PCIH screen [Appendix 4] for the status 
+of payment options and select transfer the service to new 
+account (if any).
+o 
+Forward pform to TM/MGR/ PCS for review. 
+ 
+7.  Advise  client  about termination  of the  card  and  remind  client to 
+destroy old card. 
+Check CCMS – PRUE screen [Appendix 8] for AAVS status. 
+ 
+For AAVS exists and Status code = “A” (i.e. Active) 
+o 
+Inform  client  the  function  of  the  Octopus  AAVS  will  be 
+stopped  on  the  next  day  (if  any)  and  advise  client  to 
+return  the  Octopus  Card  to  any  MTR  Customer Service 
+Centre for refund or replacement.   
+o 
+Remind  client  that  Octopus  will  charge  HK$20  should 
+they later re-apply for AAVS function. 
+For other AAVS status 
+o  Go to step 8. 
+ 
+8.  Advise  client  that  new  card  will  be  delivered  by  mail  after  3 
+working days. 
+ 
+9.  Remind  client  that  PIN  will  be  auto-generated  and  sent  to  the 
+client after the card activated.",6
+DS,"10. Review pform and place block code to the card.   
+Place Block Code “E” to the card via CCMS – OASA screen 
+ 
+& input reason code “P” for Visa / Master card [Appendix 9]. 
+Change  ATM  status  from  “G”  to  “X”  in  Hogan  15.2  screen 
+ 
+[Appendix 10]. 
+Forward pform for TM/MGR/PCS endorsement. 
+",6
+"TM/MGR/ 
+PCS","11. Review & complete pform from DS. 
+For 
+the 
+last  address  maintenance  >  30  days  or  card  to  be 
+collected at branch 
+o 
+Forward pform to for Banking Ops, HK for further processing. 
+For the last address maintenance  30 days and card to be sent 
+to client’s address 
+o 
+Forward pform to Spec/SSpec to perform call back.",6
+"Spec/SSpec 
+(Call 
+back 
+team)","12. Receive pform from TM/MGR/PCS.   
+13. Perform call back.
+o 
+Call  the  client  on  existing  mobile  number  first  and  then,  if 
+required,  on  any  one  of  other  existing  contact  numbers  in 
+bank’s records within 8 hours of receiving client’s request.   
+o 
+If  unable  to  locate  client  within  8  hours  of  receiving  client’s 
+request.  Call  the  client  on  one  of  his/her  existing  contact 
+numbers  2  more  time  within  2  working  days  after  the  initial 
+call. 
+o 
+Verify  2+1  questions  with  client  and  confirm  that  the  client 
+indeed  wants  to  re-issue  PIN  with  transfer  account.  Client 
+instruction  should  be 
+rejected 
+if  authentication  can’t  be 
+fulfilled. 
+For Unsuccessful call back 
+o 
+Update the call result on the pform. 
+o 
+Do not proceed the instruction and reject the pform. 
+o 
+Add memo “Failed to contact client for Card reissuance” 
+in CCMS.   
+o 
+Raise pform “UTC SMS SENDING REQUEST FORM” to 
+send  SMS 
+to  client’s  existing  cell  phone  number 
+in 
+Bank’s record. 
+For Successful call back 
+o 
+Update the call result on the pform. 
+o 
+Forward the pform to TM/MGR/PCS for endorsement 
+* For irregular case, escalate to TM/MGR immediately.",6
+"TM/MGR/ 
+PCS","14. Review  and  endorse  the  request  and  forward  to  Banking  Ops, 
+HK for further processing.",6

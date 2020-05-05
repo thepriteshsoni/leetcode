@@ -1,0 +1,34 @@
+ABCD Role,Action,Page
+Maker,"1.  Receive  client’s  (Principal  cardholder)  request 
+for  credit 
+card activation.  
+ 
+2.  Based  on 
+the  prevailing  Client  Authentication  Policy  & 
+Authentication Guidelines, verify client’s identity.  
+ 
+3.  Confirm  the  card  number  to  be  activated  and  check  the 
+card status. 
+For the card is in normal status  
+  Go to Step 4. 
+For the card is cancelled  
+  Reject the client’s request. 
+ 
+4.  Raise  CEMS  SR 
+– 
+“Credit  Card  Acknowledgement” 
+[Appendix  1]  or  refer  to  CCMS  –  PVM1  screen  [Appendix 
+2] to change  activation status from “N” to “A” when CEMS 
+is not available. 
+5.  Advise client that the card is activated for immediate use. 
+6.  Refer  to  CCMS  –  PVM2  screen  [Appendix  3]  to  check  for
+any PIN requirement (PR). 
+ 
+For PR = Y 
+ 
+Inform  client 
+the  new  PIN  will  be  sent  by  mail  and 
+received in around 2-3 working days.  
+For PR = N 
+ 
+Inform client to use card with current PIN.",2

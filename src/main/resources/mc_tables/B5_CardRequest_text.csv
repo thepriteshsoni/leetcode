@@ -1,0 +1,32 @@
+key,value
+1.0 Purpose,"This document defines the handling procedure for Card Request, which is handled by CCC - HK Teleservices Team ."
+2.0 Scope,"This procedure applies to Card Request and is applicable to all credit cards , Revolving Personal Loan (RPL) and R evolving C ash Cards (RCC) ."
+3.0 Definition,"CCE/SCCE: Client Care Executive / Senior Client Care Executive TM/MGR: Team Manager / Manager, Client Care Centre
+PCS: Specialist / Senior Specialist - Process Control 
+SR:   Service Request
+Spec/SSpec: Specialist / Senior Specialist - Service Operations"
+5.0 Retention Period,"Voice recording
+
+ Permanent
+
+Related documents 
+
+7 years"
+6.0 Cut off time,The cut off time of Card Request is from Monday to Friday 16:00.
+7.0 Service Standard,"For client instruction received before the cut off time, the request will be processed within the next working day .
+
+ For client instruction received after the cut off time, the request will be processed within 2 working days."
+8.0 Reference,"G lobal Process Standards : Voice and Virtual V4 . 1 (or any future update version)
+
+Retail Banking Client Authentication Global Process Standards V4.0 (or any future update version)
+
+Authentication Guidelines for Client Care Centre, HK Version 1.1 (or any future update version)"
+9.0 Appendi,"Appendix 1 CCMS PCHI screen 
+Appendix 2 Block Code List 
+Appendix 3 CCMS PCIQ screen 
+Appendix 4 CCMS PCIH screen 
+Appendix 5 CCMS PCIC screen 
+Appendix 6 CCMS Memo screen 
+Appendix 7 CEMS SR Cycle Date Change 
+Appendix 8 Hogan 11.17 screen 
+Appendix 9 Embossing Name Input Format "

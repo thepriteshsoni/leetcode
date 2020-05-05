@@ -1,0 +1,44 @@
+Role,Action,Page
+CCE/SCCE,"1.  Receive client’s request for the change of credit card billing 
+cycle. 
+ 
+2.  Based  on 
+the  prevailing  Client  Authentication  Policy  & 
+Authentication Guidelines, verify client’s identity. 
+ 
+3.  Check  CCMS  –  PCIQ  [Appendix  1]  for  the  card  type  to 
+advise the available cycle date.   
+For SCB card 
+Refer  to  the  designated  available  cycle  dates  for  the 
+ 
+card  types  respectively  via  internal  website  “K1  Hong 
+Kong – Client Care Centre homepage” [Appendix 2]. 
+For MCCL card 
+Recommend to change the cycle date within 1st - 28th. 
+ 
+ 
+4.  Check CCMS – PCIC [Appendix 3] “P8 ID” field to confirm 
+the  card  account  is  included  in  Money  Master  Statement 
+(MM statement) or not.
+5
+For  card  account  is  included  in  MM  statement  (for  SCB 
+card) 
+Advise  client 
+to  exclude 
+the  card  account 
+from  MM 
+ 
+statement. Refer to the workflow of “Account Inclusion 
+/ Exclusion of Consolidated Statement”. 
+  Go to step 5 
+For card account is not included in MM statement (for SCB / 
+MCCL card) 
+  Go to step 5 
+.  Reconfirm the date that the client preferred. 
+ 
+6.  Remind  client  that  the  effective  date  will  be  the  next  cycle 
+date. 
+ 
+7.  Raise  and  proceed  CEMS  SR 
+-  Cycle  Date  Change 
+[Appendix 4] to Banking Ops, HK for further processing.",2

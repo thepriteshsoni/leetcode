@@ -1,0 +1,180 @@
+Role,Action,Page
+CCE/SCCE,"1.  Receive client’s request for new PIN. 
+2.  Based 
+on 
+the 
+prevailing  Client  Authentication  Policy  & 
+Authentication Guidelines, verify client’s identity.   
+     
+3.  Check  CCMS  –  PCIC  screen 
+[Appendix  1] 
+/  PCHI  screen 
+[Appendix 3] for block code.
+4
+For the account without any Block Code 
+Go to Step 4. 
+ 
+For the account with Block Code 
+Refer  to  the  Block  Code  List  [Appendix  3]  to  identify  the 
+ 
+appropriate responsible party and action. 
+.  Check  Hogan  11.17 
+/  11.19  screen 
+to  confirm 
+the  client 
+relationship  is  not  in  dormant  status  (i.e.  not  all  CASA  in  the 
+client profile are dormant).   
+For the client relationship is not dormant 
+o 
+Fill in pform and go to Step 5. 
+For the client relationship is dormant 
+o 
+Reject the re-issue PIN request. 
+ 
+5.  Check  CCMS  –  PCIH  screen  [Appendix  4]  for  the  status  of 
+statement flag. 
+For the statement flag = 0 or 1    i.e. No Hold Statement Record 
+Go to Step 6. 
+ 
+For the statement flag = 2 or 3    i.e. Hold Statement Record 
+Check CCMS – PCIC [Appendix 1] for address verification. 
+ 
+Address is incorrect 
+o 
+Refer to “Change of Client Data” workflow to update the 
+address 
+o 
+Advise client to pick up card at designated SCB branch. 
+o 
+PIN will be auto-generated and sent to the client after the 
+card activated. 
+Address is correct 
+o 
+Raise  CEMS  SR  -  Cycle  Date  Change  [Appendix  5]  to 
+update the statement flag from 2 / 3 to 0 / 1. 
+o 
+After 1-2 days, check CCMS – PCIH screen [Appendix 4] 
+for amendment status of statement flag. 
+For statement flag changed to 0 or 1 
+ 
+Go to Step 6. 
+For statement flag remains unchanged 
+ 
+Forward 
+the 
+case 
+to 
+Banking  Ops, 
+HK 
+for 
+investigation. 
+ 
+6.  Check  CCMS  –  PCIC  screen 
+[Appendix  1] 
+to  confirm 
+the 
+address is correct and the date of last address maintenance. 
+For the last address maintenance > 30 days
+9
+  1
+Go to Step 7. 
+ 
+For the last address maintenance ≤ 30 days 
+Check  CCMS  –  PCIH  P.1  screen  [Appendix  4]  for  the  card 
+ 
+open date. 
+o 
+For 
+the  card  open  date 
+is 
+the  same  as 
+the 
+last 
+maintenance date 
+  Go to Step 7. 
+o 
+For 
+the  card  open  date 
+is  different 
+from 
+the 
+last 
+maintenance date 
+  Advise client to approach branch for card collection. 
+PIN will be auto-generated and sent to the client after 
+the card activated.   
+ 
+Exception handling 
+If  client  refuses  to  collect  card  at  branch,  100%  call  back  must  be 
+conducted  before  executing  the  request.  CCE  should  remind  client 
+that  a  confirmation  call  will  be  arranged  in  2  working  days  before 
+executing the instruction. 
+ 
+7.  Check CCMS – PCIH P.2 screen [Appendix 4] DATE LAST REQ 
+field and tick the check box in the pform if last request date ≤ 10 
+days. 
+8.  Forward the pform to TM/MGR/PCS for review. 
+.  Advise client that the new card will be delivered after 3 working 
+days. 
+0. Remind client the following issue:   
+Activate the new card for new PIN generation. 
+ 
+Re-arrange  online  bill  payment  due 
+to  card  expiry  date 
+ 
+change. 
+Destroy the old card upon new card acknowledged receipt. 
+",9
+"TM/MGR/ 
+PCS","11. Review the pform. 
+For  the  last  address  maintenance  >  30  days  or  card  to  be 
+collected at branch 
+o 
+Forward 
+pform 
+to 
+for  Banking  Ops,  HK 
+for 
+further 
+processing. 
+For the last address maintenance  30 days and card to be sent
+to client’s address 
+o 
+Forward pform to Spec/SSpec to perform call back.",9
+"Spec/SSpec 
+(Call 
+back 
+team)","12. Receive pform from TM/MGR/PCS. 
+   
+13. Perform call back.   
+o 
+Call  the  client  on  existing  mobile  number  first  and  then,  if 
+required,  on  any  one  of  other  existing  contact  numbers  in 
+bank’s records within 8 hours of receiving client’s request.   
+o 
+If  unable to  locate  client  within  8  hours  of receiving  client’s 
+request.  Call  the  client  on  one  of  his/her  existing  contact 
+numbers 2 more time within 2 working days after the initial 
+call. 
+o 
+Verify  2+1  questions  with  client  and  confirm  that  the  client 
+indeed  wants  to  re-issue  PIN.  Client  instruction  should  be 
+rejected if authentication can’t be fulfilled. 
+For Unsuccessful call back 
+o 
+Update the call result on the pform. 
+o 
+Do not proceed the instruction and reject the pform. 
+o 
+Add memo “Failed to contact client for Card reissuance” 
+in CCMS. 
+o  Raise pform “UTC SMS SENDING REQUEST FORM” to 
+send SMS to client’s existing cell phone number in Bank’s 
+record. 
+For Successful call back 
+o 
+Forward the pform to TM/MGR/PCS for endorsement. 
+* For irregular case, escalate to TM/MGR immediately.",9
+"TM/MGR/ 
+PCS","14. Review  and  endorse  the  request  and forward  to Banking Ops, 
+HK for further processing.",9

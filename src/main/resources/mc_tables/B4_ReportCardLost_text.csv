@@ -1,0 +1,48 @@
+key,value
+1.0 Purpose,This document defines the handling procedure s for R eport Card Lost which is handled by CCC HK Teleservices Team .
+2.0 Scope,This procedure applies to R eport Card Lost Handlin g and is applicable to all C redit Card s and Revolving Cash Cards (RCC) .
+3.0 Definition,"CCE/SCCE: Client Care Executive/Senior Client Care Executive
+DS: Designated Staff
+TM/MGR: Team Manager / Manager, Client Care Centre
+Spec/SSpec: Specialist/Senior Specialist - Service Operations
+DDA: Direct Debit Authorization
+PPS:  Payment by Phone Service CUP
+card: UnionPay Dual Currency Platinum Credit Card
+IC1: Merchant Installment Plan
+IC2: Statement Installment Plan
+DAC: Dial  A  Cheque"
+5.0 Retention Period,"Voice recording 
+
+ 
+
+ 
+
+Permanent
+
+R elated docume nts 
+
+ 7 years"
+6.0 Cut off time,"N/A for report lost For card replacement 1) SCB card 
+
+ : Mon day to Saturday 22:00 2) Manhattan card : Mon day to Friday 16:00"
+7.0 Service Standard,"For client instruction received before the cut off time, the service will be processed within 1 working day. For client instruction received after the cut off time, the service will be processed within 2 working days."
+8.0 Reference,"Retail Banking Client Authentication Global Process Standards V4.0 (or any future update version)
+
+Global Process Standards: Voice and Virtual V4.1 (or any future update version) 
+
+Authe ntication Guidelines for Client Care Centre, HK Version 1.1 (or any future update version)"
+9.0 Appendix,"Appendix 1 IWS Card Member search 
+Appendix 2 CCMS PCNL screen 
+Appendix 3 IWS Report Loss Workflow 
+Appendix 4 CCMS PCMH screen 
+Appendix 5 CCMS OASA screen 
+Appendix 6 Hogan DCIM screen (15.2) 
+Appendix 7 
+Appendix 8 Block Code List & Reason In CCMS Memo screen 
+Appendix 9 
+Appendix 10 CCMS PRUE screen 
+Appendix 11 CCMS PCIH screen 
+Appendix 12 CCMS PCIC screen 
+Appendix 13 IWS pform UTC SMS Sending Request form 
+Appendix 14 SMS content Report Card Lost Alert 
+Appendix 15 CCMS LOGN screen "

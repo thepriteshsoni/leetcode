@@ -1,0 +1,27 @@
+key,value
+1.0 Purpose,"This document defines the handling procedure for Credit Card Retained at ATM, which is handled by CCC - HK Teleservices Team."
+2.0 Scope,This procedure applies to Credit Card Retained at ATM and applicable to all credit cards and R evolving C ash Card (RCC) clients .
+3.0 Definition,"CCE/SCCE : Client Care Executive / Senior Client Care Executive
+Spec/SSpec : Specialist/Senior Specialist 
+Service Operations"
+5.0 Retention Period ,"Voice recording Permanent
+Related documents 7 years"
+6.0 Cut off time,Not Applicable
+7.0 Service Standard,The retained card will be returned to the bank within 7 to 14 days.
+8.0 Reference,"G lobal Process Standards : Voice and Virtual V4 . 1
+(or any future update version)
+
+Retail Banking Client Authentication Global Process Standards V4.0 (or any future update version)
+
+Authentication Guidelines for Client Care Centre, HK Version 1.1 (or any future update version)"
+9.0 Appendi,"x
+
+Appendix 1 : CCMS 
+Memo
+screen
+Appendix 2 : CEMS SR
+
+Card Recovery
+Appendix 3 : Block Code List
+& Reason In CCMS Memo
+screen"

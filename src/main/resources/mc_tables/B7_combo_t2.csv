@@ -1,0 +1,78 @@
+Role,Action,Page
+CCE/SCCE,"1.  Receive  client’s  enquiry  on  cash  could  not  be  withdrawn 
+from CASA thru ATM due to the bank account(s) is/are not 
+linked to the credit card.  
+ 
+2.  Base  on 
+the  prevailing  Client  Authentication  Policy  & 
+Authentication Guidelines, verify client’s identity.  
+          
+3.  Check Hogan 11.17 screen to confirm the bank account(s) 
+is/are in valid status [Appendix 1].  
+ 
+4.  Check CCMS – PCIH P.2 screen [Appendix 2] for the bank 
+account(s)  is/are  linked  to  the  credit  card  and  confirm  the 
+account  number(s)  against  Hogan  15.2  screen  [Appendix 
+3].
+For 
+the  bank  account  number(s) 
+in  CCMS  –  PCIH  P.2 
+screen is/are not consistent with Hogan 15.2 screen 
+- 
+Inform  client 
+that  a  new 
+replacement  card  will  be 
+arranged and sent to the mailing address.   
+For  no  bank  account(s)  record  in  Hogan  15.2  screen  but 
+exists in CCMS – PCIH P.2 screen 
+- 
+Inform  client  that  the  record  will  be  updated  within  2 
+working days and replacement card is optional.  
+For  no  bank  account(s)  record  Hogan  15.2  screen  and 
+CCMS – PCIH P.2  screen 
+-  Retrieve  credit  card  application  form  from  COS  Image 
+Viewer [Appendix 4] to confirm that client had requested 
+to add combine account(s) to credit card. 
+Remarks 
+  Add/delete  active  bank  account(s) 
+to  credit  card 
+is  not 
+allowed 
+through  phone  application 
+(except 
+for  COS 
+input 
+error  with 
+credit 
+card 
+application 
+form 
+as 
+supporting 
+document), CCE/SCCE should invite client to apply in person 
+at branch. 
+  For  other 
+reasons  of  card 
+replacement, 
+refer 
+to 
+“Card 
+Request” workflow. 
+  Client can keep using the existing card to access linked bank 
+account after Hogan has been updated. 
+ 
+5.  Raise  CEMS  SR  –  “Combine  Account  Related  Request” 
+[Appendix  5]  and  attach  the  credit  card  application  form  (if 
+any),  then  proceed  the  SR  to  Banking  Ops,  HK  for  further 
+processing.   
+ 
+6.  Remind client the following issues (for card replacement). 
+- 
+The  existing  card  including  supplementary  card  (if  any) 
+will  be 
+temporary  suspended  until 
+the  new  card 
+is 
+activated.  
+Activate new card when received and destroy the old 
+card.",2

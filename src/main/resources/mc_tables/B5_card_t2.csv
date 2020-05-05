@@ -1,0 +1,165 @@
+Role,Action,Page
+CCE/SCCE   1.  Receive client’s request for a replacement card.,"2.  Based  on 
+the  prevailing  Client  Authentication  Policy  & 
+Authentication Guidelines, verify client’s identity.  
+ 
+3.  Confirm 
+the 
+card 
+number 
+that 
+is 
+requested 
+for 
+replacement and check the card status.  
+For the account is in normal status  
+  Go to Step 4. 
+For the account is cancelled  
+Reject the replacement request. 
+ 
+ 
+4.  Check CCMS – PCHI screen [Appendix 1] for block code. 
+For the account without any Block Code 
+  Go to Step 5. 
+For the account with Block Code 
+Refer  to  the  Block  Code  List  [Appendix  2]  to  identify 
+ 
+the appropriate responsible party and action.
+6
+5.  Check  Hogan  11.17  /  11.19  screen  to  confirm  the  client 
+relationship  is  not  in  dormant  status  (i.e.  not  all  CASA  in 
+the client profile are dormant).  
+For the client relationship is not dormant 
+Fill in pform and go to Step 6. 
+ 
+For the client relationship is dormant 
+Reject the replacement card request. 
+ 
+.  Check  CCMS  –  PCIQ  screen  [Appendix  3]  for  the  expiry 
+date. 
+For the expiry date > 3 months 
+  Go to Step 7. 
+For the expiry date ≤ 3 months 
+Refer to “Early Renewal” workflow.  
+ 
+7.  Check  CCMS  –  PCIH  P.1  screen  [Appendix  4]  for  the 
+status of statement flag. 
+For  the  statement  flag  =  0  /  1  i.e.  No  Hold  Statement 
+Record 
+ 
+Go to Step 8.  
+For the statement flag = 2 / 3  i.e. Hold Statement Record 
+ 
+Check  CCMS  –  PCIC 
+[Appendix  5] 
+for  address 
+verification.  
+Address is incorrect 
+o  Refer 
+to 
+“Change  of  Client  Data”  workflow 
+to 
+update the address.  
+o  Advise client to pick up card at designated branch. 
+Address is correct 
+o  Raise  SR  –  Cycle  Date  Change  [Appendix  7]  to 
+update the statement flag from 2 / 3 to 0 / 1.  
+o  After  1-2  days,  check  CCMS  –  PCIH  screen  for 
+amendment status of statement flag. 
+ 
+If statement flag changed to 0 / 1, go to Step 8. 
+ 
+If  statement  flag  remains  unchanged,  forward 
+the case to Banking Ops, HK for investigation. 
+ 
+8.  Check  CCMS  –  PCIC  screen  to  confirm  the  address  is 
+correct and the date of last address maintenance.  
+For the last address maintenance date > 30 days 
+  Go to Step 9. 
+For the last address maintenance date ≤ 30 days 
+Check  CCMS  –  PCIH  P.1  screen  for  the  card  open 
+ 
+date. 
+The card open date = the last maintenance date 
+o  Go to Step 9.
+E
+The card open date ≠ the last maintenance date 
+o  Advise client to pick up card at designated branch.   
+xception handling 
+If  client  refuses  to  collect  card  at  branch,  100%  call 
+back must be conducted before executing the request. 
+CCE/SCCE  should  remind  client  that  a  confirmation 
+call  will  be  arranged 
+in  2  working  days  before 
+executing 
+the 
+instruction. 
+The 
+request 
+can’t 
+be 
+processed if call back failed. 
+9.  Forward the pform to TM/MGR/PCS for review. 
+ 
+10. Remind client the following issues: 
+The new card will be delivered after 3 working days.   
+ 
+Activate  new  card  when  received  and  destroy  the  old 
+ 
+card.",2
+"TM/MGR/ 
+PCS","11. Review the pform. 
+For  the  last  address  maintenance  date  >  30  days  or  card 
+to be collected at branch 
+Forward  pform 
+to 
+for  Banking  Ops,  HK 
+for 
+further 
+ 
+processing. 
+For the last address maintenance date  30 days and card 
+to be sent to client’s address 
+Forward pform to Spec/SSpec to perform call back.  
+",2
+"Spec/ 
+SSpec","12. Receive pform from TM/MGR/PCS. 
+  
+13. Perform call back action.  
+Call the client on existing mobile number first and then, 
+ 
+if 
+required,  on  any  one  of  other  existing  contact 
+numbers  in  bank’s  records  within  8  hours  of  receiving 
+client’s request.  
+If  unable  to  locate  client  within  8  hours  of  receiving 
+ 
+client’s 
+request.  Call 
+the  client  on  one  of  his/her 
+existing contact numbers 2 more time within 2 working 
+days after the initial call. 
+Verify  2+1  questions  with 
+client  and 
+confirm 
+the 
+ 
+instruction.  Client 
+instruction  should  be 
+rejected 
+if 
+authentication can’t be fulfilled. 
+Update the call result on the pform. 
+
+For  unsuccessful  call  back  cases,  do  not  proceed  the 
+ 
+instruction  and  reject  the  pform.  Record  the  call  result 
+in the pform and add memo “Failed to contact client for 
+Card  reissuance”  in  CCMS.  An  un-locate  letter  will  be 
+sent to client.  
+For other cases, forward the pform to TM/MGR/PCS to 
+ 
+review  and  then  forward  to  Banking  Ops,  HK  to  issue 
+new card. 
+For irregular case, escalate to TM/MGR immediately. 
+",2

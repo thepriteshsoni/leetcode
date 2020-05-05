@@ -1,0 +1,48 @@
+Role,Action,Page
+CCE/SCCE,"2
+  4
+1.  Receive notification on Card Retained at ATM from client. 
+.  Based  on 
+the  prevailing  Client  Authentication  Policy  & 
+Authentication Guidelines, verify client’s identity.           
+          
+3.  Advise client to suspend card for security reason. 
+.  Ask  whether  client  accepts  to  transfer  account  with  new 
+card number and whether the card was retained overseas: 
+For  client  accepts  new  card  number  with 
+transferred 
+account or card was retained at overseas ATM, 
+Follow the workflow for Report Card Lost Handling.  
+For 
+client 
+does 
+not 
+accept 
+new 
+card 
+number  with 
+transferred account , 
+Follow  the  workflow  for  Report  Card  Lost  Handling  for 
+ 
+temporary card suspension.  
+Record client instruction at CCMS Memo as “A/C BLK R 
+ 
+DUE  TO  CARD  CAPTURE  BY  *(SCB/  JETCO)  -  ATM, 
+PLS  SEND  CARD  TO  PCIC  WITH  *(NEW  /  OLD  PIN) 
+WHEN 
+CARD 
+RETURN, 
+#ISS=??, 
+#OUT=??” 
+[Appendix 1] for Banking Ops, HK to take further action 
+upon receipt of retained card.
+Advise  client  that  card  replacement  will  be  processed 
+ 
+after 
+the  receipt  of  retained  card  (normally  7 
+to  14 
+days).   
+Confirm  with  client  that  card  will  be  dispatched  by  mail 
+ 
+and  the  new  PIN  (if  any)  will  be  sent  later  in  another 
+separate mail.",2

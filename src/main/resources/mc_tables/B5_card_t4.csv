@@ -1,0 +1,51 @@
+Role,Action,Page
+CCE/SCCE,"1.  Receive  client  request  to  change  card  embossing  name 
+due 
+to 
+input  error 
+/  misspelling 
+/  align 
+the  name  with 
+Bank’s record.  
+CCE/SCCE  should  politely  explain 
+to  client 
+that 
+the 
+ 
+Bank  only  accept  change  of  embossing  name  that  is 
+the  same  as  the  name  shown  on  the  HKID  card  or 
+passport  and  recorded 
+in 
+the  Bank’s  system. 
+If 
+the 
+name  of  client  has  been  changed  but  not  updated  to 
+the  Bank,  CCE/SCCE  should  advise  client  to  apply  in 
+person at branch with supporting document.  
+2.  Based  on 
+the  prevailing  Client  Authentication  Policy  & 
+Authentication Guidelines, verify client’s identity.  
+ 
+3.  Confirm  the  spelling  of  embossing  name  with  client  and 
+check  the  name  record  in  Hogan  11.17  screen  [Appendix 
+8],  CCMS  –  PCIQ  screen  and  card  embossed  name  in 
+CCMS – PCIH P.2 screen. 
+For the name provided by the client is matched with Bank’s 
+system record  
+  Go to Step 4. 
+For  the  name  provided  by  the  client  is  not  matched  with 
+Bank’s system record  
+Advise 
+client 
+to  apply 
+in  person  at  branch  with 
+ 
+supporting document.  
+ 
+4.  Confirm with  client that maximum 19 letters and  minimum 
+3 letters could be shown for the embossing name including 
+hyphen  /  space  between 
+the  surname  and  other  name 
+[Appendix 9]. 
+.  Refer  to  “Card  Replacement  Request”  workflow  for  card 
+request.",6

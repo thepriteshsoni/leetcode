@@ -1,0 +1,233 @@
+Role,Action,Page
+CCE/SCCE,"1.  Receive client’s request to re-issue PIN. 
+2.  Based 
+on 
+the 
+prevailing  Client  Authentication  Policy  & 
+Authentication Guidelines, verify client’s identity.   
+                 
+3.  Check  CCMS  –  PCIC  screen 
+[Appendix  1] 
+/  PCHI  screen 
+[Appendix 2] for block code. 
+For the account without any Block Code 
+Go to Step 4. 
+ 
+For the account with Block Code 
+Refer  to  the  Block  Code  List  [Appendix  3]  to  identify  the 
+ 
+appropriate responsible party and action. 
+ 
+4.  Check  Hogan  11.17 
+/  11.19  screen 
+to  confirm 
+the  client 
+relationship  is  not  in  dormant  status  (i.e.  not  all  CASA  in  the 
+client profile are dormant).
+F
+For the client relationship is not dormant 
+o 
+Fill in pform and go to Step 5. 
+For the client relationship is dormant 
+o 
+Reject the re-issue PIN request. 
+ 
+5.  Check  CCMS  –  PCIH  screen  [Appendix  4]  for  the  status  of 
+statement flag. 
+For the statement flag = 0 or 1    i.e. No Hold Statement Record 
+Go to Step 6. 
+ 
+For the statement flag = 2 or 3    i.e. Hold Statement Record 
+Check CCMS – PCIC [Appendix 1] for address verification.   
+ 
+Address is incorrect 
+o 
+Refer to “Change of Client Data” workflow to update the 
+address. 
+o 
+Advise client to collect PIN at designated SCB branch. 
+Address is correct 
+o 
+Raise CEMS SR – Cycle Date Change [Appendix 5] to 
+update the statement flag from 2 / 3 to 0 / 1.   
+o 
+After 1-2 days, check CCMS  – PCIH screen  [Appendix 
+4] for amendment status of statement flag. 
+For statement flag changed to 0 or 1 
+  Go to Step 6. 
+For statement flag remains unchanged 
+  Forward 
+the 
+case 
+to 
+Banking  Ops, 
+HK 
+for 
+investigation. 
+ 
+6.  Complete 
+the  process 
+for  SCB  card  with  Jetco  Chip  and 
+Manhattan Card. 
+or SCB card with Jetco Chip 
+Check CCMS – PCIH screen [Appendix 4] and Hogan 11.17 
+ 
+screen  [Appendix  6]  to  confirm  any  CASA  account  linkage 
+to  the  credit  card  account  and  tick  the  check  box  in  the 
+pform.   
+Check  CCMS  –  PCIC  screen  [Appendix  1]  to  confirm  the 
+ 
+address 
+is 
+correct 
+and 
+the 
+date 
+of 
+last 
+address 
+maintenance.   
+For the last address maintenance date > 30 days 
+o 
+Fill in pform. 
+For the last address maintenance date ≤ 30 days
+o 
+Further 
+tick 
+the  check  box 
+in  pform 
+to  perform  an   
+outbound call before process the instruction. 
+o 
+Inform  the  client  that  the  PIN  will  be  sent  to  registered 
+address 
+if 
+call 
+back 
+confirmation 
+is 
+successfully 
+performed.   
+Forward the pform to TM/MGR/PCS for review. 
+ 
+Advise client that the re-issued PIN will be sent out after 3 
+ 
+working days. 
+For Manhattan Card 
+Check CCMS – PCIH PVK IND screen [Appendix 7] for the 
+ 
+status of PIN count.   
+For PIN count  9 
+ 
+Check CCMS – PCIC screen [Appendix 1] to confirm the 
+address 
+is 
+correct  and 
+the  date  of 
+last  address 
+maintenance. 
+For the last address maintenance date > 30 days 
+o 
+Fill in pform. 
+For the last address maintenance date ≤ 30 days 
+o 
+Further  tick  the  check  box  in  pform  to  perform  an 
+outbound call before process the instruction. 
+o 
+Inform 
+the  client 
+that 
+the  PIN  will  be  sent 
+to 
+registered  address 
+if 
+call  back 
+confirmation 
+is 
+successfully performed. 
+ 
+Forward the pform to TM/MGR/PCS for review. 
+ 
+Advise client that the re-issued PIN will be sent out after 
+3 working days. 
+For PIN count = 9 
+ 
+Advise  client  about  account 
+transfer  with  new  PIN 
+requirement. 
+ 
+Refer 
+to  “4.2  Re-issue  PIN  Request  with  Transfer 
+Account” workflow for further action.",2
+"TM/MGR/ 
+PCS","7.  Review the pform and complete the process for SCB card with 
+Jetco Chip and Manhattan Card. 
+For SCB card with Jetco Chip 
+Forward  pform  to  Spec/SSpec  to  check  account  status  if 
+ 
+CASA linkage check box ticked “YES”. 
+Reconfirm the last address maintenance date. 
+ 
+For the last address maintenance date > 30 days
+F
+o 
+Forward pform to for Banking Ops, HK for PIN issuance. 
+For the last address maintenance date  30 days 
+o 
+Forward pform to Spec/SSpec to perform call back. 
+or Manhattan Card 
+Reconfirm the last address maintenance date. 
+ 
+For the last address maintenance date > 30 days 
+o 
+Forward pform to for Banking Ops, HK for PIN issuance. 
+For the last address maintenance date  30 days 
+o 
+Forward pform to Spec/SSpec to perform call back.",2
+"Spec/SSpec 
+(Call 
+back 
+team)","8.  Receive pform from TM/MGR/PCS.   
+9.  Check  the  status  of  CASA  which  linked  to  the  card  in  Hogan 
+11.17 screen [Appendix 6].   
+For the account status is normal 
+Go to Step 10. 
+ 
+For the account is in dormant status   
+Refer 
+to 
+“Re-activation  on  Dormant  Account”  workflow, 
+ 
+contact the client to activate the dormant account.   
+ 
+10. Perform call back for last address maintenance date ≤ 30 days. 
+o 
+Call  the  client  on  existing  mobile  number  first  and  then,  if 
+required,  on  any  one  of  other  existing  contact  numbers  in 
+bank’s records within 8 hours of receiving client’s request.   
+o 
+If unable to locate client within 8 hours of receiving client’s 
+request.  Call  the  client  on  one  of  his/her  existing  contact 
+numbers 2 more time within 2 working days after the initial 
+call. 
+o 
+Verify  2+1  questions  with  client  and  confirm  that  the  client 
+indeed  wants  to  re-issue  PIN.  Client  instruction  should  be 
+rejected if authentication can’t be fulfilled. 
+For Unsuccessful call back 
+o  Update the call result on the pform. 
+o  Do not proceed the instruction and reject the pform.   
+o  Add memo “Failed to contact client for PIN reissuance” in 
+CCMS.   
+o  Raise pform “UTC SMS SENDING REQUEST FORM” to 
+send  SMS 
+to  client’s  existing  cell  phone  number 
+in 
+Bank’s record.
+For Successful call back 
+o  Update the call result on the pform. 
+o  Forward the pform to TM/MGR/PCS for endorsement 
+* For irregular case, escalate to TM/MGR immediately.",2
+"TM/MGR/ 
+PCS","11. Review and endorse the request and forward to Banking Ops, 
+HK for further processing.",2

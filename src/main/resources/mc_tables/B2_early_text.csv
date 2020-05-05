@@ -1,0 +1,33 @@
+key,value
+1.0 Purpose,"This document defines the handling procedure for Card Early Renewal , which is handled by CCC - HK Teleservices Team."
+2.0 Scope,"This procedure applies to Card Early Renewal Request and is applicable to all credit card s , Revolving Personal Loan (RPL) and Revolving Cash Cards (RCC)."
+3.0 Definition," 
+CCE/SCCE: Client Care Executive / Senior Client Care Executive 
+TM/MGR: Team Manager / Manager, Client Care Centre  
+PCS: Specialist/ Senior Specialist  Process Control
+Spec/SSpec: Specialist/ Senior Specialist  Service Operations
+CI: Unsecured Lending, Credit Initiation
+SR: Service Request   "
+5.0 Retention Period,"Voice recording
+
+ Permanent
+
+R elated documents 
+
+7 years"
+6.0 Cut off time,The cut off time of Early Renewal Request is from Monday to Friday 16:00.
+7.0 Service Standard,"For client instruction received before the cut off time, the request will be processed within 4 working days.
+
+ For client instruction received after the cut off time, the request will be processed within 5 working days."
+8.0 Reference,"Global Process Standards: Voice and Virtual V4.1 (or any future update version) 
+
+Retail Banking Client Authentication Global Process Standards V4.0 (or any future update version) 
+
+Authentication Guidelines for Client Care Centre, HK Version 1.1 (or any future update version)"
+9.0 Appendi,"Appendix 1: CCMS PCHI screen 
+Appendix 2: Block Code List & Reason In CCMS Memo screen 
+Appendix 3: CCMS PCIH screen 
+Appendix 4: CCMS PCIC screen 
+Appendix 5: CEMS SR Cycle Date Change 
+Appendix 6: CCMS PCIQ screen 
+Appendix 7: K1HK Website "

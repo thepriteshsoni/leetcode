@@ -1,0 +1,20 @@
+Role,Action,Page
+"Spec/ 
+SSpec","2
+  3
+  4
+  5
+1.  Receive the returned card report from Banking Ops, HK. 
+.  Release block code “R” of the returned card via CEMS SR- 
+Card Recovery [Appendix 2] and arrange card replacement 
+(follow workflow of Card Request).  
+.  Contact  client for card collection if the replacement card  is 
+to be collected at branch after card return.   
+. 
+Issue  correspondence  letter  to  the  unreachable  clients  for 
+notification. 
+.  For cases that unable to arrange card replacement such as 
+expired  card,  account  past  due,  high  balance,  delinquent 
+block  code  etc;  Spec/SSpec  contact  client  and  advise  the 
+status  (2  day  3  times  contact)  or  issue  correspondence 
+letter to unreachable clients for notification.",3

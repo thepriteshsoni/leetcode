@@ -1,0 +1,64 @@
+ABCD Role,Action,Page
+Maker,"1.  Receive client’s request for odd dollar absorption. 
+2.  Based 
+on 
+the 
+prevailing 
+Authentication 
+Policy 
+& 
+Authentication Guidelines, verify client’s identity.   
+ 
+3.  Check  CCMS  –  PCIQ  screen  [Appendix  1] for  credit  card 
+account status. 
+For the account status is normal 
+Explain 
+to 
+the 
+client 
+that 
+the 
+request 
+cannot  be 
+ 
+processed for valid account. The credit / debit balance 
+will be offset upon new purchase / card payment. 
+For the account status is cancelled 
+  Go to Step 4. 
+4.  Obtain client’s consent and confirm the latest balance. 
+For balance amount in credit
+Raise CEMS SR – “Credit Balance Transfer / Payment 
+ 
+Adjustment”  [Appendix  2],  Request  Type  =  Odd  Dollar 
+Absorption  and  obtain  proper  approval  for  odd  dollar 
+absorption.   
+- 
+According 
+to 
+the  prevailing  Unsecured  Lending 
+Products - Product Fee Waiver Guidelines, proceed 
+the SR to appropriate party for review and approval.   
+For balance amount in debit 
+Raise CEMS SR – “Cardholder Entry Form” [Appendix 
+ 
+3]  input  with  “Transaction  Code:  22”  and  “Description: 
+84ODD  DOLLARS  REVERSAL”  and  obtain  proper 
+approval for odd dollar absorption. 
+- 
+According 
+to 
+the  prevailing  Unsecured  Lending 
+Products - Product Fee Waiver Guidelines, proceed 
+the SR to appropriate party for review and approval.",2
+Checker,"5.  Review the SR routed from Maker. 
+For approved case 
+Proceed SR to Banking Ops, HK for further processing. 
+ 
+For declined case 
+Return SR to Maker. 
+ 
+Inform Maker calling to client for the declined result. 
+",3
+Maker,"6.  Obtain the returned SR from CEMS. 
+7.  Make outbound call to client to inform the result and press 
+‘Return’ to close the SR.",3

@@ -1,0 +1,30 @@
+ABCD Role,Action,Page
+Maker,"1.  Receive client’s request for credit balance transfer from one 
+credit card account to another same currency card account 
+under same client’s profile. 
+2.  Base  on 
+the  prevailing  Client  Authentication  Policy  & 
+Authentication Guideline, verify client’s identity. 
+.  Check  CCMS  –  PCIQ  screen  [Appendix  1]  for  credit  card 
+account status. 
+For the account with Block Code 
+  Refer to the Block Code List [Appendix 2] to identify the 
+appropriate responsible party and action. 
+For the account without any Block Code 
+  Go to Step 4.
+5
+4.  Obtain  client’s  consent  and  confirm  his/her 
+transaction 
+amount of balance transfer. 
+.  Raise  CEMS  SR  –  “Credit  Balance  Transfer 
+/  Payment 
+Adjustment” 
+[Appendix  3],  Request  Type  =  Dual  Card 
+Repayment  and  obtain  proper  approval 
+for 
+the  balance 
+transfer. 
+  According to the prevailing Unsecured Lending Products 
+-  Product  Fee  Waiver  Guidelines,  proceed  the  SR  to 
+appropriate party for review and approval.",2
+Checker,6.  Review and proceed the SR to approve the request.,3
