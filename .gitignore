@@ -109,24 +109,6 @@ hs_err_pid*
 
 doc/
 .idea/
-admin/admin.iml
-channels/IOT/IOT.iml
-channels/IOT/alexa/alexa.iml
-channels/channels.iml
-channels/sdk/sdk.iml
-channels/sdk/websdk/websdk.iml
-channels/social/facebook/facebook.iml
-channels/social/line/line.iml
-channels/social/social-common/social-common.iml
-channels/social/social.iml
-common/common.iml
-core/core.iml
-deployments/deployments.iml
-deployments/main/deployments-main.iml
-deployments/oauth/oauth.iml
-morfeus.iml
-queue/queue.iml
-retailbanking/retailbanking.iml
 citi/citi.iml
 *.iml
 eugene.cache/aiRulesCache.data
